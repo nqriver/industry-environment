@@ -17,7 +17,6 @@ import java.time.Year;
 import java.util.List;
 import java.util.Map;
 import java.util.UUID;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -80,7 +79,7 @@ public class IndustrialProductionFacade {
                         avgTemp = annualAverageTemperatures.get(year);
                     }
                     Double industryIndex = null;
-                    if (!annualProductionMeasurements.containsKey(year)) {
+                    if (annualProductionMeasurements.containsKey(year)) {
                         industryIndex = annualProductionMeasurements.get(year).indexValue();
                     }
                     return new Dataset(year.getValue(), avgTemp, industryIndex);
