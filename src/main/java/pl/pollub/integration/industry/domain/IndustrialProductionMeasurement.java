@@ -3,6 +3,7 @@ package pl.pollub.integration.industry.domain;
 import jakarta.persistence.*;
 import pl.pollub.integration.industry.IndustrialProductionDataImporter.IndustryProductionIndexRecord;
 
+import java.time.Year;
 import java.util.UUID;
 
 @Entity
@@ -38,5 +39,13 @@ public class IndustrialProductionMeasurement {
 
 
     public IndustrialProductionMeasurement() {
+    }
+
+    public Year year() {
+        return Year.of(year);
+    }
+
+    public Double indexValue() {
+        return indexValue;
     }
 }

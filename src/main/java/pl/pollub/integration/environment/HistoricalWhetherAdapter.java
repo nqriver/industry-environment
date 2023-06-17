@@ -1,11 +1,11 @@
 package pl.pollub.integration.environment;
 
 import io.quarkus.logging.Log;
-import io.vavr.control.Either;
 import jakarta.enterprise.context.ApplicationScoped;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 import pl.pollub.integration.commons.Coordinates;
-import pl.pollub.integration.commons.Error;
+import pl.pollub.integration.commons.ServiceErrorCode;
+import pl.pollub.integration.commons.ServiceException;
 import pl.pollub.integration.environment.client.WhetherApiClient;
 import pl.pollub.integration.environment.client.response.HourlyTemperatureStatistics;
 
@@ -44,9 +44,9 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
 
 
     @Override
-    public Either<Error, Map<Year, Double>> getAnnualAverageTemperaturesForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
+    public Map<Year, Double> getAnnualAverageTemperaturesForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
         if (begin.isAfter(end)) {
-            return Either.left(Error.ofCause("Begin date cannot be after end date"));
+            throw new ServiceException(ServiceErrorCode.INVALID_DATES_RANGE);
         }
 
         LocalDate beginDate = getFirstDate(begin);
@@ -73,7 +73,7 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
         Map<Year, Double> yearToAverageTemperature = findAverageTemperaturesPerYear(consecutiveMeasurements, orderedYears, measurementsPerConsecutiveYears);
 
         Log.infof("Finished generating avg temperature report for years of range %s-%s and coordinates %s", begin, end, coordinates);
-        return Either.right(yearToAverageTemperature);
+        return yearToAverageTemperature;
     }
 
 

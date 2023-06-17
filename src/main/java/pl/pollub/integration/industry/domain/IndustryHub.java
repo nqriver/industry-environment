@@ -11,28 +11,40 @@ import java.util.UUID;
 public class IndustryHub {
     @Id
     @GeneratedValue
-    public UUID id;
+    private UUID id;
 
     @Column(name = "hub_name")
-    public String hubName;
+    private String hubName;
 
     @Column(name = "main_city_nearby")
-    public String mainCityNearby;
+    private String mainCityNearby;
 
-    public Integer population;
+    private Integer population;
 
     @Column(name = "gdp_per_capita")
-    public Double gdpPerCapita;
+    private Double gdpPerCapita;
 
-    public Double latitude;
+    private Double latitude;
 
-    public Double longitude;
+    private Double longitude;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "country_id")
     private Country country;
 
     public IndustryHub() {
+    }
+
+    public Country locationCountry() {
+        return country;
+    }
+
+    public Double getLatitude() {
+        return latitude;
+    }
+
+    public Double getLongitude() {
+        return longitude;
     }
 
     @Override
