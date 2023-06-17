@@ -1,0 +1,5222 @@
+[
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1961,
+    "Value": 22.839,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1962,
+    "Value": 25.10302,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1963,
+    "Value": 26.71998,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1964,
+    "Value": 29.37872,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1965,
+    "Value": 31.9886,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1966,
+    "Value": 34.04163,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1967,
+    "Value": 35.11773,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1968,
+    "Value": 37.62939,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1969,
+    "Value": 40.06211,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1970,
+    "Value": 39.59126,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1971,
+    "Value": 41.805,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1972,
+    "Value": 45.48298,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1973,
+    "Value": 50.67501,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1974,
+    "Value": 51.41605,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1975,
+    "Value": 47.62342,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1976,
+    "Value": 50.72623,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1977,
+    "Value": 52.51141,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1978,
+    "Value": 54.7214,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1979,
+    "Value": 57.38531,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1980,
+    "Value": 55.58556,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1981,
+    "Value": 55.91121,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1982,
+    "Value": 51.48325,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1983,
+    "Value": 54.18899,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1984,
+    "Value": 61.00596,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1985,
+    "Value": 64.27371,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1986,
+    "Value": 63.86301,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1987,
+    "Value": 66.66508,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1988,
+    "Value": 70.7359,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1989,
+    "Value": 70.42059,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1990,
+    "Value": 68.45214,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1991,
+    "Value": 65.83945,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1992,
+    "Value": 66.54071,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1993,
+    "Value": 69.55181,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1994,
+    "Value": 74.03701,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1995,
+    "Value": 77.39639,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1996,
+    "Value": 78.31631,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1997,
+    "Value": 82.73647,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1998,
+    "Value": 85.41064,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1999,
+    "Value": 90.46307,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2000,
+    "Value": 96.83224,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2001,
+    "Value": 93.7872,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2002,
+    "Value": 95.56929,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2003,
+    "Value": 95.65697,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2004,
+    "Value": 97.75493,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2005,
+    "Value": 99.97868,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2006,
+    "Value": 99.77518,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2007,
+    "Value": 98.354,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2008,
+    "Value": 95.09732,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2009,
+    "Value": 84.85164,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2010,
+    "Value": 89.93976,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2011,
+    "Value": 94.22417,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2012,
+    "Value": 94.09346,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2013,
+    "Value": 95.71469,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2014,
+    "Value": 100.4259,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2015,
+    "Value": 100,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2016,
+    "Value": 100.0519,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2017,
+    "Value": 104.865,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2018,
+    "Value": 108.935,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2019,
+    "Value": 108.7389,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 100.1988,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2021,
+    "Value": 104.7487,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "CAN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2022,
+    "Value": 108.5864,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1955,
+    "Value": 26.21322,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1956,
+    "Value": 28.61017,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1957,
+    "Value": 30.95513,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1958,
+    "Value": 32.33966,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1959,
+    "Value": 32.78568,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1960,
+    "Value": 35.7545,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1961,
+    "Value": 37.76564,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1962,
+    "Value": 40.26109,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1963,
+    "Value": 42.09438,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1964,
+    "Value": 44.83484,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1965,
+    "Value": 45.62575,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1966,
+    "Value": 48.30073,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1967,
+    "Value": 49.42915,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1968,
+    "Value": 51.2024,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1969,
+    "Value": 57.20724,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1970,
+    "Value": 60.42628,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1971,
+    "Value": 63.27758,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1972,
+    "Value": 67.80136,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1973,
+    "Value": 72.92463,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1974,
+    "Value": 74.65757,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1975,
+    "Value": 68.21949,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1976,
+    "Value": 74.57193,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1977,
+    "Value": 75.93209,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1978,
+    "Value": 77.63984,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1979,
+    "Value": 80.98483,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1980,
+    "Value": 80.1451,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1981,
+    "Value": 79.30529,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1982,
+    "Value": 78.66703,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1983,
+    "Value": 78.72078,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1984,
+    "Value": 80.07792,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1985,
+    "Value": 80.27468,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1986,
+    "Value": 82.3127,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1987,
+    "Value": 83.75085,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1988,
+    "Value": 86.7348,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1989,
+    "Value": 89.74184,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1990,
+    "Value": 91.04924,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1991,
+    "Value": 90.97008,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1992,
+    "Value": 90.23425,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1993,
+    "Value": 86.86678,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1994,
+    "Value": 90.04925,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1995,
+    "Value": 92.71506,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1996,
+    "Value": 93.47589,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1997,
+    "Value": 97.56085,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1998,
+    "Value": 101.6125,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1999,
+    "Value": 104.3158,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2000,
+    "Value": 108.6191,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2001,
+    "Value": 109.9066,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2002,
+    "Value": 108.6449,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2003,
+    "Value": 107.7124,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2004,
+    "Value": 110.1474,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2005,
+    "Value": 110.0374,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2006,
+    "Value": 110.7941,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2007,
+    "Value": 112.0016,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2008,
+    "Value": 109.0424,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2009,
+    "Value": 95.39254,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2010,
+    "Value": 99.9375,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2011,
+    "Value": 102.3825,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2012,
+    "Value": 99.80334,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2013,
+    "Value": 99.49084,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2014,
+    "Value": 98.37334,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2015,
+    "Value": 100,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2016,
+    "Value": 100.4767,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2017,
+    "Value": 102.45,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2018,
+    "Value": 103.2508,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2019,
+    "Value": 103.6808,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 92.92506,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2021,
+    "Value": 98.48668,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "FRA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2022,
+    "Value": 98.13419,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1958,
+    "Value": 23.70022,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1959,
+    "Value": 25.39664,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1960,
+    "Value": 28.35035,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1961,
+    "Value": 30.13825,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1962,
+    "Value": 31.406,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1963,
+    "Value": 32.46724,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1964,
+    "Value": 35.15171,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1965,
+    "Value": 37.09122,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1966,
+    "Value": 37.70288,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1967,
+    "Value": 36.8978,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1968,
+    "Value": 41.4303,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1969,
+    "Value": 46.8463,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1970,
+    "Value": 49.65363,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1971,
+    "Value": 50.09268,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1972,
+    "Value": 51.93941,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1973,
+    "Value": 55.27983,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1974,
+    "Value": 54.32025,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1975,
+    "Value": 50.94815,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1976,
+    "Value": 54.37909,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1977,
+    "Value": 55.79583,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1978,
+    "Value": 56.77804,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1979,
+    "Value": 59.63714,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1980,
+    "Value": 59.63203,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1981,
+    "Value": 58.5426,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1982,
+    "Value": 56.63994,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1983,
+    "Value": 57.01843,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1984,
+    "Value": 58.74207,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1985,
+    "Value": 61.56026,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1986,
+    "Value": 62.69061,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1987,
+    "Value": 62.931,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1988,
+    "Value": 65.1968,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1989,
+    "Value": 68.40881,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1990,
+    "Value": 71.94817,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1991,
+    "Value": 74.0145,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1992,
+    "Value": 72.99775,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1993,
+    "Value": 67.08059,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1994,
+    "Value": 69.1891,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1995,
+    "Value": 69.79749,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1996,
+    "Value": 69.39745,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1997,
+    "Value": 71.77264,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1998,
+    "Value": 75.02292,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1999,
+    "Value": 76.17301,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2000,
+    "Value": 80.4067,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2001,
+    "Value": 80.46504,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2002,
+    "Value": 79.47329,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2003,
+    "Value": 79.68997,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2004,
+    "Value": 83.15693,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2005,
+    "Value": 85.93216,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2006,
+    "Value": 90.87424,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2007,
+    "Value": 96.86641,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2008,
+    "Value": 97.74148,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2009,
+    "Value": 80.78173,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2010,
+    "Value": 90.45753,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2011,
+    "Value": 98.15818,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2012,
+    "Value": 97.06642,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2013,
+    "Value": 97.04142,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2014,
+    "Value": 98.96658,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2015,
+    "Value": 100,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2016,
+    "Value": 101.1334,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2017,
+    "Value": 103.842,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2018,
+    "Value": 105.0504,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2019,
+    "Value": 101.7585,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 92.69106,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2021,
+    "Value": 97.1831,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "DEU",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2022,
+    "Value": 96.78307,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1955,
+    "Value": 22.60931,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1956,
+    "Value": 24.37762,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1957,
+    "Value": 26.2616,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1958,
+    "Value": 27.08713,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1959,
+    "Value": 30.03589,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1960,
+    "Value": 34.68483,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1961,
+    "Value": 38.45596,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1962,
+    "Value": 42.15578,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1963,
+    "Value": 45.87936,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1964,
+    "Value": 46.37215,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1965,
+    "Value": 48.51915,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1966,
+    "Value": 54.1901,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1967,
+    "Value": 58.37038,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1968,
+    "Value": 61.81129,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1969,
+    "Value": 63.99527,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1970,
+    "Value": 68.23812,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1971,
+    "Value": 68.16447,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1972,
+    "Value": 71.15018,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1973,
+    "Value": 78.07125,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1974,
+    "Value": 81.56397,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1975,
+    "Value": 74.07956,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1976,
+    "Value": 83.2701,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1977,
+    "Value": 84.17145,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1978,
+    "Value": 85.77295,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1979,
+    "Value": 91.4949,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1980,
+    "Value": 96.55569,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1981,
+    "Value": 95.04131,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1982,
+    "Value": 91.86407,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1983,
+    "Value": 89.54264,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1984,
+    "Value": 92.45428,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1985,
+    "Value": 93.77238,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1986,
+    "Value": 97.57915,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1987,
+    "Value": 100.5203,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1988,
+    "Value": 106.8747,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1989,
+    "Value": 110.7504,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1990,
+    "Value": 110.5241,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1991,
+    "Value": 109.4659,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1992,
+    "Value": 108.316,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1993,
+    "Value": 105.6579,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1994,
+    "Value": 112.099,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1995,
+    "Value": 118.7484,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1996,
+    "Value": 116.7569,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1997,
+    "Value": 121.2732,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1998,
+    "Value": 122.7814,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1999,
+    "Value": 122.4731,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2000,
+    "Value": 127.6644,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2001,
+    "Value": 125.3646,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2002,
+    "Value": 123.4897,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2003,
+    "Value": 122.7064,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2004,
+    "Value": 122.4815,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2005,
+    "Value": 121.7149,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2006,
+    "Value": 126.1312,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2007,
+    "Value": 129.0642,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2008,
+    "Value": 123.748,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2009,
+    "Value": 100.7499,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2010,
+    "Value": 107.791,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2011,
+    "Value": 108.6409,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2012,
+    "Value": 102.3998,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2013,
+    "Value": 99.25839,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2014,
+    "Value": 98.62511,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2015,
+    "Value": 99.64169,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2016,
+    "Value": 101.6915,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2017,
+    "Value": 105.4829,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2018,
+    "Value": 106.3911,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2019,
+    "Value": 105.1579,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 93.58387,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2021,
+    "Value": 104.508,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "ITA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2022,
+    "Value": 104.9329,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1955,
+    "Value": 6.274619,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1956,
+    "Value": 7.697801,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1957,
+    "Value": 9.071907,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1958,
+    "Value": 8.896639,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1959,
+    "Value": 10.67737,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1960,
+    "Value": 13.32743,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1961,
+    "Value": 15.93543,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1962,
+    "Value": 17.24644,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1963,
+    "Value": 19.19543,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1964,
+    "Value": 22.2451,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1965,
+    "Value": 23.06536,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1966,
+    "Value": 26.12205,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1967,
+    "Value": 31.18381,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1968,
+    "Value": 36.0072,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1969,
+    "Value": 41.74199,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1970,
+    "Value": 47.46977,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1971,
+    "Value": 48.73872,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1972,
+    "Value": 52.23007,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1973,
+    "Value": 60.06808,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1974,
+    "Value": 57.76856,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1975,
+    "Value": 51.35373,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1976,
+    "Value": 57.02542,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1977,
+    "Value": 59.40907,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1978,
+    "Value": 63.1458,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1979,
+    "Value": 67.80094,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1980,
+    "Value": 71.01186,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1981,
+    "Value": 71.69891,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1982,
+    "Value": 71.95831,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1983,
+    "Value": 74.24381,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1984,
+    "Value": 81.15641,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1985,
+    "Value": 84.14299,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1986,
+    "Value": 83.98174,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1987,
+    "Value": 86.87017,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1988,
+    "Value": 94.9115,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1989,
+    "Value": 100.4045,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1990,
+    "Value": 104.6469,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1991,
+    "Value": 106.6413,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1992,
+    "Value": 100.5482,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1993,
+    "Value": 97.13407,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1994,
+    "Value": 98.351,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1995,
+    "Value": 101.3426,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1996,
+    "Value": 103.5314,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1997,
+    "Value": 107.6554,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1998,
+    "Value": 100.4806,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1999,
+    "Value": 101.0741,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2000,
+    "Value": 106.0525,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2001,
+    "Value": 99.62135,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2002,
+    "Value": 98.45204,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2003,
+    "Value": 102.2936,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2004,
+    "Value": 107.1211,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2005,
+    "Value": 108.8602,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2006,
+    "Value": 113.2982,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2007,
+    "Value": 116.6042,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2008,
+    "Value": 112.8273,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2009,
+    "Value": 89.39108,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2010,
+    "Value": 102.7771,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2011,
+    "Value": 99.92881,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2012,
+    "Value": 100.0571,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2013,
+    "Value": 99.45838,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2014,
+    "Value": 101.2416,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2015,
+    "Value": 100,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2016,
+    "Value": 100.225,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2017,
+    "Value": 102.8414,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2018,
+    "Value": 103.908,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2019,
+    "Value": 101.1916,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 90.94242,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2021,
+    "Value": 95.80869,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "JPN",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2022,
+    "Value": 95.98367,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1968,
+    "Value": 57.65829,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1969,
+    "Value": 59.63919,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1970,
+    "Value": 59.95755,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1971,
+    "Value": 59.62151,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1972,
+    "Value": 60.63848,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1973,
+    "Value": 66.12133,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1974,
+    "Value": 64.80368,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1975,
+    "Value": 61.29289,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1976,
+    "Value": 63.27379,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1977,
+    "Value": 66.55465,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1978,
+    "Value": 68.46481,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1979,
+    "Value": 71.06474,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1980,
+    "Value": 66.43969,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1981,
+    "Value": 64.30846,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1982,
+    "Value": 65.55536,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1983,
+    "Value": 67.99611,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1984,
+    "Value": 68.00495,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1985,
+    "Value": 71.7103,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1986,
+    "Value": 73.47011,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1987,
+    "Value": 76.46799,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1988,
+    "Value": 80.12027,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1989,
+    "Value": 81.78281,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1990,
+    "Value": 81.53519,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1991,
+    "Value": 78.77608,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1992,
+    "Value": 79.05907,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1993,
+    "Value": 80.78352,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1994,
+    "Value": 85.17863,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1995,
+    "Value": 86.64662,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1996,
+    "Value": 87.81393,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1997,
+    "Value": 90.21931,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1998,
+    "Value": 93.11107,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1999,
+    "Value": 97.4885,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2000,
+    "Value": 99.43403,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2001,
+    "Value": 102.3523,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2002,
+    "Value": 103.4489,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2003,
+    "Value": 106.2522,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2004,
+    "Value": 105.6774,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2005,
+    "Value": 104.6604,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2006,
+    "Value": 108.2066,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2007,
+    "Value": 106.5706,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2008,
+    "Value": 105.138,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2009,
+    "Value": 97.9572,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2010,
+    "Value": 96.68376,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2011,
+    "Value": 91.46622,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2012,
+    "Value": 91.49275,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2013,
+    "Value": 93.50018,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2014,
+    "Value": 95.30421,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2015,
+    "Value": 100,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2016,
+    "Value": 100.5041,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2017,
+    "Value": 100.336,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2018,
+    "Value": 103.6788,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2019,
+    "Value": 106.1019,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 107.4372,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2021,
+    "Value": 115.2724,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "GBR",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2022,
+    "Value": 112.0623,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1950,
+    "Value": 15.63801,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1951,
+    "Value": 16.96154,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1952,
+    "Value": 17.61218,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1953,
+    "Value": 19.09782,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1954,
+    "Value": 18.06297,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1955,
+    "Value": 20.36582,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1956,
+    "Value": 21.26297,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1957,
+    "Value": 21.54055,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1958,
+    "Value": 20.1704,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1959,
+    "Value": 22.57096,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1960,
+    "Value": 23.07061,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1961,
+    "Value": 23.22605,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1962,
+    "Value": 25.15581,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1963,
+    "Value": 26.6481,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1964,
+    "Value": 28.44464,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1965,
+    "Value": 31.28491,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1966,
+    "Value": 34.04741,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1967,
+    "Value": 34.77309,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1968,
+    "Value": 36.7128,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1969,
+    "Value": 38.41603,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1970,
+    "Value": 37.13872,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1971,
+    "Value": 37.65934,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1972,
+    "Value": 41.27946,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1973,
+    "Value": 44.66473,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1974,
+    "Value": 44.53441,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1975,
+    "Value": 40.56657,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1976,
+    "Value": 43.76569,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1977,
+    "Value": 47.11248,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1978,
+    "Value": 49.70444,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1979,
+    "Value": 51.19251,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1980,
+    "Value": 49.8674,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1981,
+    "Value": 50.52276,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1982,
+    "Value": 47.90401,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1983,
+    "Value": 49.21435,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1984,
+    "Value": 53.60147,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1985,
+    "Value": 54.25791,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1986,
+    "Value": 54.80766,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1987,
+    "Value": 57.66471,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1988,
+    "Value": 60.64859,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1989,
+    "Value": 61.19784,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1990,
+    "Value": 61.78679,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1991,
+    "Value": 60.87578,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1992,
+    "Value": 62.65674,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1993,
+    "Value": 64.71497,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1994,
+    "Value": 68.12232,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1995,
+    "Value": 71.27883,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1996,
+    "Value": 74.51486,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1997,
+    "Value": 79.87054,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1998,
+    "Value": 84.5632,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1999,
+    "Value": 88.26862,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2000,
+    "Value": 91.68756,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2001,
+    "Value": 88.89376,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2002,
+    "Value": 89.19296,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2003,
+    "Value": 90.34648,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2004,
+    "Value": 92.76117,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2005,
+    "Value": 95.87004,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2006,
+    "Value": 98.0588,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2007,
+    "Value": 100.5704,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2008,
+    "Value": 97.08659,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2009,
+    "Value": 86.05129,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2010,
+    "Value": 90.8214,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2011,
+    "Value": 93.67844,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2012,
+    "Value": 96.53757,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2013,
+    "Value": 98.47889,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2014,
+    "Value": 101.4357,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2015,
+    "Value": 100,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2016,
+    "Value": 97.83552,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2017,
+    "Value": 99.12695,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2018,
+    "Value": 102.2496,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2019,
+    "Value": 101.5351,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 94.23824,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2021,
+    "Value": 98.37855,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "USA",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2022,
+    "Value": 101.7107,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1960,
+    "Value": 22.85868,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1961,
+    "Value": 24.49491,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1962,
+    "Value": 26.53082,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1963,
+    "Value": 28.34511,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1964,
+    "Value": 30.73536,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1965,
+    "Value": 32.87471,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1966,
+    "Value": 35.61097,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1967,
+    "Value": 37.44826,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1968,
+    "Value": 40.45125,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1969,
+    "Value": 43.77256,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1970,
+    "Value": 45.02785,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1971,
+    "Value": 45.77545,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1972,
+    "Value": 48.96746,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1973,
+    "Value": 53.60303,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1974,
+    "Value": 53.29824,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1975,
+    "Value": 48.80201,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1976,
+    "Value": 52.89114,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1977,
+    "Value": 55.54183,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1978,
+    "Value": 57.93942,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1979,
+    "Value": 60.59138,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1980,
+    "Value": 60.23285,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1981,
+    "Value": 60.25193,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1982,
+    "Value": 58.44356,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1983,
+    "Value": 59.66995,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1984,
+    "Value": 63.6712,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1985,
+    "Value": 65.40301,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1986,
+    "Value": 66.16676,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1987,
+    "Value": 68.6012,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1988,
+    "Value": 72.59875,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1989,
+    "Value": 74.62647,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1990,
+    "Value": 76.02802,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1991,
+    "Value": 75.82015,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1992,
+    "Value": 75.40653,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1993,
+    "Value": 74.89545,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1994,
+    "Value": 78.00611,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1995,
+    "Value": 80.85335,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1996,
+    "Value": 82.78436,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1997,
+    "Value": 87.17329,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1998,
+    "Value": 89.17041,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 1999,
+    "Value": 91.74083,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2000,
+    "Value": 95.80853,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2001,
+    "Value": 93.46274,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2002,
+    "Value": 93.27615,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2003,
+    "Value": 94.5995,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2004,
+    "Value": 97.04548,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2005,
+    "Value": 99.21571,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2006,
+    "Value": 102.2649,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2007,
+    "Value": 104.9227,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2008,
+    "Value": 101.9882,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2009,
+    "Value": 87.64056,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2010,
+    "Value": 94.46821,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2011,
+    "Value": 96.50751,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2012,
+    "Value": 97.27524,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2013,
+    "Value": 98.15971,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2014,
+    "Value": 100.4069,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2015,
+    "Value": 100,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2016,
+    "Value": 99.39303,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2017,
+    "Value": 101.5301,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2018,
+    "Value": 103.8671,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2019,
+    "Value": 102.7221,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2020,
+    "Value": 94.47037,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2021,
+    "Value": 99.50068,
+    "Flag Codes": ""
+  },
+  {
+    "LOCATION": "G-7",
+    "INDICATOR": "INDPROD",
+    "SUBJECT": "TOT",
+    "MEASURE": "IDX2015",
+    "FREQUENCY": "A",
+    "TIME": 2022,
+    "Value": 101.1136,
+    "Flag Codes": ""
+  }
+]
