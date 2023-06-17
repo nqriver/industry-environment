@@ -1,6 +1,7 @@
 package pl.pollub.integration.industry.domain;
 
 import jakarta.persistence.*;
+import pl.pollub.integration.industry.web.dto.IndustryHubResponse;
 
 import java.util.Objects;
 import java.util.UUID;
@@ -45,5 +46,9 @@ public class IndustryHub {
     @Override
     public int hashCode() {
         return Objects.hash(hubName, country);
+    }
+
+    public IndustryHubResponse toResponse() {
+        return new IndustryHubResponse(id, hubName, mainCityNearby, population, gdpPerCapita, latitude, longitude);
     }
 }

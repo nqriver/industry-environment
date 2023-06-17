@@ -1,6 +1,7 @@
 package pl.pollub.integration.industry.domain;
 
 import jakarta.persistence.*;
+import pl.pollub.integration.industry.IndustrialProductionDataImporter.IndustryProductionIndexRecord;
 
 import java.util.UUID;
 
@@ -18,9 +19,22 @@ public class IndustrialProductionMeasurement {
     @Column(name = "index_type")
     private String indexType;
 
+    @Column(name = "year")
+    private int year;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "country_id")
     private Country country;
+
+
+    public static IndustrialProductionMeasurement fromJsonRecord(IndustryProductionIndexRecord record, Country country) {
+        IndustrialProductionMeasurement measurement = new IndustrialProductionMeasurement();
+        measurement.indexValue = record.getValue();
+        measurement.year = record.getTime();
+        measurement.indexType = record.getIndicator();
+        measurement.country = country;
+        return measurement;
+    }
 
 
     public IndustrialProductionMeasurement() {
