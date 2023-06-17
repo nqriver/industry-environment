@@ -1,17 +1,16 @@
 package pl.pollub.integration.industry.domain;
 
 import jakarta.persistence.*;
-import org.hibernate.annotations.GenericGenerator;
 
 import java.util.Objects;
+import java.util.UUID;
 
 @Entity
 @Table(name = "industry_hub")
 public class IndustryHub {
     @Id
-    @GeneratedValue(generator = "uuid")
-    @GenericGenerator(name = "uuid", strategy = "org.hibernate.id.UUIDGenerator")
-    public String id;
+    @GeneratedValue
+    public UUID id;
 
     @Column(name = "hub_name")
     public String hubName;
