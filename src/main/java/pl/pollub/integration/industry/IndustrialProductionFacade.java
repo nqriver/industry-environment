@@ -9,9 +9,8 @@ import pl.pollub.integration.commons.ServiceErrorCode;
 import pl.pollub.integration.commons.ServiceException;
 import pl.pollub.integration.environment.HistoricalWhetherFacade;
 import pl.pollub.integration.industry.domain.*;
-import pl.pollub.integration.industry.web.Dataset;
-import pl.pollub.integration.industry.web.dto.CountryResponse;
-import pl.pollub.integration.industry.web.dto.IndustryHubResponse;
+import pl.pollub.integration.industry.web.dto.*;
+import pl.pollub.integration.industry.web.IndustrialHubResource;
 
 import java.time.Year;
 import java.util.List;
@@ -59,7 +58,7 @@ public class IndustrialProductionFacade {
     }
 
     @Transactional
-    public List<Dataset> getSummaryDatasetWithAvgTemperature(UUID industryHubId, Year begin, Year end) {
+    public List<DatasetRecord> getSummaryDatasetWithAvgTemperature(UUID industryHubId, Year begin, Year end) {
         IndustryHub industryHub = industryHubRepository.findByIdOptional(industryHubId)
                 .orElseThrow(() -> new ServiceException(ServiceErrorCode.INDUSTRY_HUB_NOT_FOUND));
 
@@ -82,7 +81,7 @@ public class IndustrialProductionFacade {
                     if (annualProductionMeasurements.containsKey(year)) {
                         industryIndex = annualProductionMeasurements.get(year).indexValue();
                     }
-                    return new Dataset(year.getValue(), avgTemp, industryIndex);
+                    return new DatasetRecord(year.getValue(), avgTemp, industryIndex);
                 }).toList();
     }
 
@@ -90,4 +89,40 @@ public class IndustrialProductionFacade {
         return Stream.iterate(begin, value -> value.isBefore(end.plusYears(1)), e -> e.plusYears(1));
     }
 
+    public Dataset getSummaryDataset(DatasetRequest request) {
+        UUID industryHubId = request.hubId();
+        Year begin = request.start();
+        Year end = request.end();
+        DatasetType type = request.type();
+        if (type.equals(DatasetType.PRODUCTION_IDX_AND_AVG_DAILY_AMPLITUDE)) {
+            IndustryHub industryHub = industryHubRepository.findByIdOptional(industryHubId)
+                    .orElseThrow(() -> new ServiceException(ServiceErrorCode.INDUSTRY_HUB_NOT_FOUND));
+
+            Country country = industryHub.locationCountry();
+            Map<Year, IndustrialProductionMeasurement> annualProductionMeasurements = measurementRepository
+                    .findMeasurementsByCountryForYearsInRange(country, begin, end)
+                    .stream()
+                    .collect(Collectors.toMap(IndustrialProductionMeasurement::year, measurement -> measurement));
+
+            Map<Year, Double> annualAverageDailyTemperatureAmplitudes = whetherFacade.getAnnualAverageDailyTemperatureAmplitudeForRangeOfYears(begin, end,
+                    new Coordinates(industryHub.getLatitude(), industryHub.getLongitude()));
+
+            List<DatasetRecord> records = getYearsStream(begin, end)
+                    .map(year -> {
+                        Double avgTemp = null;
+                        if (annualAverageDailyTemperatureAmplitudes.containsKey(year)) {
+                            avgTemp = annualAverageDailyTemperatureAmplitudes.get(year);
+                        }
+                        Double industryIndex = null;
+                        if (annualProductionMeasurements.containsKey(year)) {
+                            industryIndex = annualProductionMeasurements.get(year).indexValue();
+                        }
+                        return new DatasetRecord(year.getValue(), avgTemp, industryIndex);
+                    }).toList();
+
+            return new Dataset(type.description(), type.measuredWhetherValue(), records);
+
+        }
+        return null;
+    }
 }

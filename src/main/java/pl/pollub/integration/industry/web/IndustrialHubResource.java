@@ -8,6 +8,10 @@ import pl.pollub.integration.environment.HistoricalWhetherFacade;
 import pl.pollub.integration.industry.IndustrialProductionFacade;
 import pl.pollub.integration.industry.domain.IndustryHub;
 import pl.pollub.integration.industry.domain.IndustryHubRepository;
+import pl.pollub.integration.industry.web.dto.Dataset;
+import pl.pollub.integration.industry.web.dto.DatasetRecord;
+import pl.pollub.integration.industry.web.dto.DatasetRequest;
+import pl.pollub.integration.industry.web.dto.DatasetType;
 
 import java.time.Year;
 import java.util.List;
@@ -38,10 +42,22 @@ public class IndustrialHubResource {
     }
 
     @GET
+    @Path("{hubId}/datasets")
+    public Dataset getDataset(@PathParam("hubId") UUID hubId,
+                              @QueryParam("type") DatasetType type,
+                              @QueryParam("begin") int beginYear,
+                              @QueryParam("end") int endYear) {
+
+        DatasetRequest request = new DatasetRequest(Year.of(beginYear), Year.of(endYear), type, hubId);
+        return industrialProductionFacade.getSummaryDataset(request);
+    }
+
+
+    @GET
     @Path("{hubId}/datasets/avg-temperature")
-    public List<Dataset> getIndustryDevelopmentToAvgTemperatureReport(@PathParam("hubId") UUID hubId,
-                                                                      @QueryParam("begin") int beginYear,
-                                                                      @QueryParam("end") int endYear) {
+    public List<DatasetRecord> getIndustryDevelopmentToAvgTemperatureReport(@PathParam("hubId") UUID hubId,
+                                                                            @QueryParam("begin") int beginYear,
+                                                                            @QueryParam("end") int endYear) {
         return industrialProductionFacade.getSummaryDatasetWithAvgTemperature(hubId, Year.of(beginYear), Year.of(endYear));
     }
 }

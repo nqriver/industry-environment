@@ -7,6 +7,7 @@ import pl.pollub.integration.commons.Coordinates;
 import pl.pollub.integration.commons.ServiceErrorCode;
 import pl.pollub.integration.commons.ServiceException;
 import pl.pollub.integration.environment.client.WhetherApiClient;
+import pl.pollub.integration.environment.client.response.DailyTemperatureMeasurement;
 import pl.pollub.integration.environment.client.response.HourlyTemperatureStatistics;
 
 import java.time.LocalDate;
@@ -15,6 +16,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 @ApplicationScoped
@@ -45,9 +47,7 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
 
     @Override
     public Map<Year, Double> getAnnualAverageTemperaturesForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
-        if (begin.isAfter(end)) {
-            throw new ServiceException(ServiceErrorCode.INVALID_DATES_RANGE);
-        }
+        assertBeginIsBeforeEnd(begin, end);
 
         LocalDate beginDate = getFirstDate(begin);
         LocalDate endDate = getLastDate(end);
@@ -62,18 +62,82 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
 
         List<Double> consecutiveMeasurements = statistics.getConsecutiveMeasurements();
 
-        List<Year> orderedYears = Stream.iterate(begin, value -> value.isBefore(end.plusYears(1)), e -> e.plusYears(1))
-                .toList();
+        List<Year> orderedYears = getYearStream(begin, end).toList();
 
         List<Integer> measurementsPerConsecutiveYears = orderedYears.stream()
                 .map(Year::length)
                 .map(days -> days * MEASURES_PER_DAY)
                 .toList();
 
-        Map<Year, Double> yearToAverageTemperature = findAverageTemperaturesPerYear(consecutiveMeasurements, orderedYears, measurementsPerConsecutiveYears);
+        Map<Year, Double> yearToAverageTemperature = findAveragesByYear(consecutiveMeasurements, orderedYears, measurementsPerConsecutiveYears);
 
         Log.infof("Finished generating avg temperature report for years of range %s-%s and coordinates %s", begin, end, coordinates);
         return yearToAverageTemperature;
+    }
+
+    @Override
+    public Map<Year, Double> getAnnualAverageMaxDailyTemperatureForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
+        assertBeginIsBeforeEnd(begin, end);
+
+        LocalDate beginDate = getFirstDate(begin);
+        LocalDate endDate = getLastDate(end);
+
+        DailyTemperatureMeasurement measurements = whetherApiClient.getHistoricalMinMaxTemperatureMeasurements(new String[]{"temperature_2m_max"},
+                coordinates.latitude().toString(),
+                coordinates.longitude().toString(),
+                beginDate.format(DateTimeFormatter.ISO_DATE),
+                endDate.format(DateTimeFormatter.ISO_DATE),
+                "auto");
+
+        List<Year> orderedYears = getYearStream(begin, end).toList();
+        List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();
+        List<Double> consecutiveMaxTemperatures = measurements.getDailyMaxTemperatureMeasurements();
+        List<Double> consecutiveMinTemperatures = measurements.getDailyMinTemperatureMeasurements();
+        int measurementCount = consecutiveMinTemperatures.size();
+        if (measurementCount != consecutiveMaxTemperatures.size()) {
+            throw new ServiceException(ServiceErrorCode.INVALID_MIN_MAX_TEMP_MEASURES);
+        }
+
+
+        Map<Year, Double> yearToAvgMaxTemp = findAveragesByYear(consecutiveMaxTemperatures, orderedYears, measuresPerYear);
+
+        return yearToAvgMaxTemp;
+    }
+
+    @Override
+    public Map<Year, Double> getAnnualAverageMinDailyTemperatureForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
+        return null;
+    }
+
+    @Override
+    public Map<Year, Double> getAnnualAverageDailyTemperatureAmplitudeForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
+        assertBeginIsBeforeEnd(begin, end);
+        LocalDate beginDate = getFirstDate(begin);
+        LocalDate endDate = getLastDate(end);
+
+        DailyTemperatureMeasurement measurements = whetherApiClient.getHistoricalMinMaxTemperatureMeasurements(
+                new String[]{"temperature_2m_max", "temperature_2m_min"},
+                coordinates.latitude().toString(),
+                coordinates.longitude().toString(),
+                beginDate.format(DateTimeFormatter.ISO_DATE),
+                endDate.format(DateTimeFormatter.ISO_DATE),
+                "auto");
+
+        List<Year> orderedYears = getYearStream(begin, end).toList();
+        List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();
+        List<Double> consecutiveMaxTemperatures = measurements.getDailyMaxTemperatureMeasurements();
+        List<Double> consecutiveMinTemperatures = measurements.getDailyMinTemperatureMeasurements();
+        int measurementCount = consecutiveMinTemperatures.size();
+        if (measurementCount != consecutiveMaxTemperatures.size()) {
+            throw new ServiceException(ServiceErrorCode.INVALID_MIN_MAX_TEMP_MEASURES);
+        }
+
+        List<Double> consecutiveTemperatureAmplitudes = IntStream.range(0, measurementCount).boxed()
+                .map(idx -> consecutiveMaxTemperatures.get(idx) - consecutiveMinTemperatures.get(idx))
+                .toList();
+
+        return findAveragesByYear(consecutiveTemperatureAmplitudes, orderedYears, measuresPerYear);
+
     }
 
 
@@ -82,12 +146,23 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
         return null;
     }
 
+
     @Override
     public Double getAnnualAveragePrecipitation(Year year, Coordinates coordinates) {
         return null;
     }
 
-    private Map<Year, Double> findAverageTemperaturesPerYear(List<Double> consecutiveMeasurements, List<Year> orderedYears, List<Integer> measurementsPerConsecutiveYears) {
+    private Stream<Year> getYearStream(Year begin, Year end) {
+        return Stream.iterate(begin, value -> value.isBefore(end.plusYears(1)), e -> e.plusYears(1));
+    }
+
+    private void assertBeginIsBeforeEnd(Year begin, Year end) {
+        if (begin.isAfter(end)) {
+            throw new ServiceException(ServiceErrorCode.INVALID_DATES_RANGE);
+        }
+    }
+
+    private Map<Year, Double> findAveragesByYear(List<Double> consecutiveMeasurements, List<Year> orderedYears, List<Integer> measurementsPerConsecutiveYears) {
         Map<Year, Double> yearToAverageTemperature = new HashMap<>();
         int start = 0;
         int idx = 0;
