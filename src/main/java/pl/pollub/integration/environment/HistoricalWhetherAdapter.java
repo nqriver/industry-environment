@@ -21,24 +21,22 @@ import java.util.stream.Stream;
 
 @ApplicationScoped
 public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
-    public static final String TEMPERATURE_QUERY = "temperature_2m";
+    public static final String HOURLY_TEMPERATURE_QUERY = "temperature_2m";
     private static final int MEASURES_PER_DAY = 24;
+    public static final String WHETHER_CLIENT_TIMEZONE = "auto";
+    public static final String MAX_DAILY_TEMP_QUERY = "temperature_2m_max";
+    public static final String MIN_DAILY_TEMP_QUERY = "temperature_2m_min";
     @RestClient
     WhetherApiClient whetherApiClient;
 
     @Override
     public Double getAnnualAverageTemperature(Year year, Coordinates coordinates) {
-        LocalDate beginDate = getFirstDate(year);
-        LocalDate endDate = getLastDate(year);
-
-        Log.info("Request params are " + coordinates.latitude().toString());
-
         HourlyTemperatureStatistics statistics = whetherApiClient.getHistoricalHourlyTemperatureMeasurements(
-                TEMPERATURE_QUERY,
+                HOURLY_TEMPERATURE_QUERY,
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
-                beginDate.format(DateTimeFormatter.ISO_DATE),
-                endDate.format(DateTimeFormatter.ISO_DATE));
+                getFormattedBeginDate(year),
+                getFormattedEndDate(year));
 
         return statistics.getConsecutiveMeasurements()
                 .stream().mapToDouble(val -> val).average().orElse(0.0);
@@ -48,16 +46,12 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
     @Override
     public Map<Year, Double> getAnnualAverageTemperaturesForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
         assertBeginIsBeforeEnd(begin, end);
-
-        LocalDate beginDate = getFirstDate(begin);
-        LocalDate endDate = getLastDate(end);
-
         HourlyTemperatureStatistics statistics = whetherApiClient.getHistoricalHourlyTemperatureMeasurements(
-                TEMPERATURE_QUERY,
+                HOURLY_TEMPERATURE_QUERY,
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
-                beginDate.format(DateTimeFormatter.ISO_DATE),
-                endDate.format(DateTimeFormatter.ISO_DATE));
+                getFormattedBeginDate(begin),
+                getFormattedEndDate(end));
 
 
         List<Double> consecutiveMeasurements = statistics.getConsecutiveMeasurements();
@@ -79,15 +73,13 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
     public Map<Year, Double> getAnnualAverageMaxDailyTemperatureForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
         assertBeginIsBeforeEnd(begin, end);
 
-        LocalDate beginDate = getFirstDate(begin);
-        LocalDate endDate = getLastDate(end);
-
-        DailyTemperatureMeasurement measurements = whetherApiClient.getHistoricalMinMaxTemperatureMeasurements(new String[]{"temperature_2m_max"},
+        DailyTemperatureMeasurement measurements = whetherApiClient.getHistoricalMinMaxTemperatureMeasurements(
+                new String[]{MAX_DAILY_TEMP_QUERY},
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
-                beginDate.format(DateTimeFormatter.ISO_DATE),
-                endDate.format(DateTimeFormatter.ISO_DATE),
-                "auto");
+                getFormattedBeginDate(begin),
+                getFormattedEndDate(end),
+                WHETHER_CLIENT_TIMEZONE);
 
         List<Year> orderedYears = getYearStream(begin, end).toList();
         List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();
@@ -106,21 +98,41 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
 
     @Override
     public Map<Year, Double> getAnnualAverageMinDailyTemperatureForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
-        return null;
+        assertBeginIsBeforeEnd(begin, end);
+
+
+        DailyTemperatureMeasurement measurements = whetherApiClient.getHistoricalMinMaxTemperatureMeasurements(
+                new String[]{MAX_DAILY_TEMP_QUERY},
+                coordinates.latitude().toString(),
+                coordinates.longitude().toString(),
+                getFormattedBeginDate(begin),
+                getFormattedEndDate(end),
+                "auto");
+
+        List<Year> orderedYears = getYearStream(begin, end).toList();
+        List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();
+        List<Double> consecutiveMaxTemperatures = measurements.getDailyMaxTemperatureMeasurements();
+        List<Double> consecutiveMinTemperatures = measurements.getDailyMinTemperatureMeasurements();
+        int measurementCount = consecutiveMinTemperatures.size();
+        if (measurementCount != consecutiveMaxTemperatures.size()) {
+            throw new ServiceException(ServiceErrorCode.INVALID_MIN_MAX_TEMP_MEASURES);
+        }
+
+
+        Map<Year, Double> yearToAvgMaxTemp = findAveragesByYear(consecutiveMaxTemperatures, orderedYears, measuresPerYear);
+
+        return yearToAvgMaxTemp;
     }
 
     @Override
     public Map<Year, Double> getAnnualAverageDailyTemperatureAmplitudeForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
         assertBeginIsBeforeEnd(begin, end);
-        LocalDate beginDate = getFirstDate(begin);
-        LocalDate endDate = getLastDate(end);
-
         DailyTemperatureMeasurement measurements = whetherApiClient.getHistoricalMinMaxTemperatureMeasurements(
-                new String[]{"temperature_2m_max", "temperature_2m_min"},
+                new String[]{MAX_DAILY_TEMP_QUERY, MIN_DAILY_TEMP_QUERY},
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
-                beginDate.format(DateTimeFormatter.ISO_DATE),
-                endDate.format(DateTimeFormatter.ISO_DATE),
+                getFormattedBeginDate(begin),
+                getFormattedEndDate(end),
                 "auto");
 
         List<Year> orderedYears = getYearStream(begin, end).toList();
@@ -167,10 +179,11 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
         int start = 0;
         int idx = 0;
         for (Year year : orderedYears) {
-            int endOfSlice = start + measurementsPerConsecutiveYears.get(idx++);
+            int measurementsPerYear = measurementsPerConsecutiveYears.get(idx++);
+            int endOfSlice = start + measurementsPerYear;
             List<Double> measurementsForYear = consecutiveMeasurements.subList(start, endOfSlice);
 
-            Log.infof("Number of measurements for year %s: [%d], expected: [%d]", year, measurementsForYear.size(), year.length() * 24);
+            Log.infof("Number of measurements for year %s: [%d], expected: [%d]", year, measurementsForYear.size(), measurementsPerYear);
             double average = measurementsForYear.stream()
                     .mapToDouble(d -> d)
                     .average()
@@ -183,11 +196,15 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
     }
 
 
-    private LocalDate getFirstDate(Year year) {
-        return LocalDate.of(year.getValue(), 1, 1);
+    private String getFormattedBeginDate(Year year) {
+        return getFormattedDate(LocalDate.of(year.getValue(), 1, 1));
     }
 
-    private LocalDate getLastDate(Year year) {
-        return LocalDate.of(year.getValue(), 12, 31);
+    private String getFormattedDate(LocalDate date) {
+        return date.format(DateTimeFormatter.ISO_DATE);
+    }
+
+    private String getFormattedEndDate(Year year) {
+        return getFormattedDate(LocalDate.of(year.getValue(), 12, 31));
     }
 }
