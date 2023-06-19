@@ -6,11 +6,11 @@ public enum DatasetType {
     PRODUCTION_IDX_AND_AVG_MIN_DAILY_TEMP("avg_min_daily_temp", "Zestawienie indeksu produkcji ze średnią dzienną minimalną temperaturą w zakresie lat "),
     PRODUCTION_IDX_AND_AVG_DAILY_AMPLITUDE("avg_daily_amplitude", "Zestawienie indeksu produkcji ze średnią dzienną amplitudą temperatur w zakresie lat ");
 
-    private final String measuredWhetherValue;
+    private final String measuredWeatherValue;
     private final String description;
 
-    DatasetType(String measuredWhetherValue, String description) {
-        this.measuredWhetherValue = measuredWhetherValue;
+    DatasetType(String measuredWeatherValue, String description) {
+        this.measuredWeatherValue = measuredWeatherValue;
         this.description = description;
     }
 
@@ -19,8 +19,8 @@ public enum DatasetType {
         return description;
     }
 
-    public String measuredWhetherValue() {
-        return measuredWhetherValue;
+    public String measuredWeatherValue() {
+        return measuredWeatherValue;
     }
 
 }

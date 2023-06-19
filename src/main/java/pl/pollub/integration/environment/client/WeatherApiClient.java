@@ -6,8 +6,8 @@ import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 import pl.pollub.integration.environment.client.response.DailyTemperatureMeasurement;
 import pl.pollub.integration.environment.client.response.HourlyTemperatureStatistics;
 
-@RegisterRestClient(configKey = "whether-api")
-public interface WhetherApiClient {
+@RegisterRestClient(configKey = "weather-api")
+public interface WeatherApiClient {
 
 
     @GET

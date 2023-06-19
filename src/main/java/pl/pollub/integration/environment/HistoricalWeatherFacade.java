@@ -5,7 +5,7 @@ import pl.pollub.integration.commons.Coordinates;
 import java.time.Year;
 import java.util.Map;
 
-public interface HistoricalWhetherFacade {
+public interface HistoricalWeatherFacade {
     Double getAnnualAverageTemperature(Year year, Coordinates coordinates);
 
     Map<Year, Double> getAnnualAverageTemperaturesForRangeOfYears(Year begin, Year end, Coordinates coordinates);

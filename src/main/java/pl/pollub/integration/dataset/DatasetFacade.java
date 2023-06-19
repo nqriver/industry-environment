@@ -9,7 +9,7 @@ import pl.pollub.integration.dataset.dto.Dataset;
 import pl.pollub.integration.dataset.dto.DatasetRecord;
 import pl.pollub.integration.dataset.dto.DatasetRequest;
 import pl.pollub.integration.dataset.dto.DatasetType;
-import pl.pollub.integration.environment.HistoricalWhetherFacade;
+import pl.pollub.integration.environment.HistoricalWeatherFacade;
 import pl.pollub.integration.industry.IndustrialProductionFacade;
 import pl.pollub.integration.industry.domain.Country;
 import pl.pollub.integration.industry.domain.IndustrialProductionMeasurement;
@@ -29,7 +29,7 @@ public class DatasetFacade {
 
 
     @Inject
-    HistoricalWhetherFacade historicalWhetherFacade;
+    HistoricalWeatherFacade historicalWeatherFacade;
 
 
     public Dataset getSummaryDataset(DatasetRequest request) {
@@ -43,30 +43,30 @@ public class DatasetFacade {
         Map<Year, IndustrialProductionMeasurement> annualProductionMeasurements = industrialProductionFacade
                 .getAnnualProductionMeasurements(begin, end, country);
 
-        Map<Year, Double> annualWhetherAttributes = resolveWhetherAttributes(begin, end, type, industryHub);
+        Map<Year, Double> annualWeatherAttributes = resolveWeatherAttributes(begin, end, type, industryHub);
 
         List<DatasetRecord> records = getYearsStream(begin, end)
-                .map(year -> assembleDatasetRecord(annualProductionMeasurements, annualWhetherAttributes, year)).toList();
+                .map(year -> assembleDatasetRecord(annualProductionMeasurements, annualWeatherAttributes, year)).toList();
 
-        return new Dataset(type.description(), type.measuredWhetherValue(), records);
+        return new Dataset(type.description(), type.measuredWeatherValue(), records);
     }
 
-    private Map<Year, Double> resolveWhetherAttributes(Year begin, Year end, DatasetType type, IndustryHub industryHub) {
+    private Map<Year, Double> resolveWeatherAttributes(Year begin, Year end, DatasetType type, IndustryHub industryHub) {
         return switch (type) {
             case PRODUCTION_IDX_AND_AVG_DAILY_AMPLITUDE ->
-                    historicalWhetherFacade.getAnnualAverageDailyTemperatureAmplitudeForRangeOfYears(begin, end,
+                    historicalWeatherFacade.getAnnualAverageDailyTemperatureAmplitudeForRangeOfYears(begin, end,
                             new Coordinates(industryHub.getLatitude(), industryHub.getLongitude()));
 
             case PRODUCTION_IDX_AND_AVG_DAILY_TEMP ->
-                    historicalWhetherFacade.getAnnualAverageTemperaturesForRangeOfYears(begin, end,
+                    historicalWeatherFacade.getAnnualAverageTemperaturesForRangeOfYears(begin, end,
                             new Coordinates(industryHub.getLatitude(), industryHub.getLongitude()));
 
             case PRODUCTION_IDX_AND_AVG_MAX_DAILY_TEMP ->
-                    historicalWhetherFacade.getAnnualAverageMaxDailyTemperatureForRangeOfYears(begin, end,
+                    historicalWeatherFacade.getAnnualAverageMaxDailyTemperatureForRangeOfYears(begin, end,
                             new Coordinates(industryHub.getLatitude(), industryHub.getLongitude()));
 
             case PRODUCTION_IDX_AND_AVG_MIN_DAILY_TEMP ->
-                    historicalWhetherFacade.getAnnualAverageMinDailyTemperatureForRangeOfYears(begin, end,
+                    historicalWeatherFacade.getAnnualAverageMinDailyTemperatureForRangeOfYears(begin, end,
                             new Coordinates(industryHub.getLatitude(), industryHub.getLongitude()));
             default -> throw new ServiceException(ServiceErrorCode.DATASET_OPTION_NOT_SUPPORTED);
         };

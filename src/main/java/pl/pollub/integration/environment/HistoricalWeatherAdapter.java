@@ -6,7 +6,7 @@ import org.eclipse.microprofile.rest.client.inject.RestClient;
 import pl.pollub.integration.commons.Coordinates;
 import pl.pollub.integration.commons.ServiceErrorCode;
 import pl.pollub.integration.commons.ServiceException;
-import pl.pollub.integration.environment.client.WhetherApiClient;
+import pl.pollub.integration.environment.client.WeatherApiClient;
 import pl.pollub.integration.environment.client.response.DailyTemperatureMeasurement;
 import pl.pollub.integration.environment.client.response.HourlyTemperatureStatistics;
 
@@ -20,18 +20,18 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 @ApplicationScoped
-public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
+public class HistoricalWeatherAdapter implements HistoricalWeatherFacade {
     public static final String HOURLY_TEMPERATURE_QUERY = "temperature_2m";
     private static final int MEASURES_PER_DAY = 24;
-    public static final String WHETHER_CLIENT_TIMEZONE = "auto";
+    public static final String WEATHER_CLIENT_TIMEZONE = "auto";
     public static final String MAX_DAILY_TEMP_QUERY = "temperature_2m_max";
     public static final String MIN_DAILY_TEMP_QUERY = "temperature_2m_min";
     @RestClient
-    WhetherApiClient whetherApiClient;
+    WeatherApiClient weatherApiClient;
 
     @Override
     public Double getAnnualAverageTemperature(Year year, Coordinates coordinates) {
-        HourlyTemperatureStatistics statistics = whetherApiClient.getHistoricalHourlyTemperatureMeasurements(
+        HourlyTemperatureStatistics statistics = weatherApiClient.getHistoricalHourlyTemperatureMeasurements(
                 HOURLY_TEMPERATURE_QUERY,
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
@@ -46,7 +46,7 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
     @Override
     public Map<Year, Double> getAnnualAverageTemperaturesForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
         assertBeginIsBeforeEnd(begin, end);
-        HourlyTemperatureStatistics statistics = whetherApiClient.getHistoricalHourlyTemperatureMeasurements(
+        HourlyTemperatureStatistics statistics = weatherApiClient.getHistoricalHourlyTemperatureMeasurements(
                 HOURLY_TEMPERATURE_QUERY,
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
@@ -73,13 +73,13 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
     public Map<Year, Double> getAnnualAverageMaxDailyTemperatureForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
         assertBeginIsBeforeEnd(begin, end);
 
-        DailyTemperatureMeasurement measurements = whetherApiClient.getHistoricalMinMaxTemperatureMeasurements(
+        DailyTemperatureMeasurement measurements = weatherApiClient.getHistoricalMinMaxTemperatureMeasurements(
                 new String[]{MAX_DAILY_TEMP_QUERY},
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
                 getFormattedBeginDate(begin),
                 getFormattedEndDate(end),
-                WHETHER_CLIENT_TIMEZONE);
+                WEATHER_CLIENT_TIMEZONE);
 
         List<Year> orderedYears = getYearStream(begin, end).toList();
         List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();
@@ -93,7 +93,7 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
         assertBeginIsBeforeEnd(begin, end);
 
 
-        DailyTemperatureMeasurement measurements = whetherApiClient.getHistoricalMinMaxTemperatureMeasurements(
+        DailyTemperatureMeasurement measurements = weatherApiClient.getHistoricalMinMaxTemperatureMeasurements(
                 new String[]{MAX_DAILY_TEMP_QUERY},
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
@@ -110,7 +110,7 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
     @Override
     public Map<Year, Double> getAnnualAverageDailyTemperatureAmplitudeForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
         assertBeginIsBeforeEnd(begin, end);
-        DailyTemperatureMeasurement measurements = whetherApiClient.getHistoricalMinMaxTemperatureMeasurements(
+        DailyTemperatureMeasurement measurements = weatherApiClient.getHistoricalMinMaxTemperatureMeasurements(
                 new String[]{MAX_DAILY_TEMP_QUERY, MIN_DAILY_TEMP_QUERY},
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
