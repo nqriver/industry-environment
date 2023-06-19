@@ -1,4 +1,4 @@
-package pl.pollub.integration.industry.web.dto;
+package pl.pollub.integration.dataset.dto;
 
 public record DatasetRecord(int year, Double whetherValue, Double productionIndex) {
 

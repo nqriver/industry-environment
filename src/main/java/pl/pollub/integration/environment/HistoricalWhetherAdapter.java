@@ -84,16 +84,8 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
         List<Year> orderedYears = getYearStream(begin, end).toList();
         List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();
         List<Double> consecutiveMaxTemperatures = measurements.getDailyMaxTemperatureMeasurements();
-        List<Double> consecutiveMinTemperatures = measurements.getDailyMinTemperatureMeasurements();
-        int measurementCount = consecutiveMinTemperatures.size();
-        if (measurementCount != consecutiveMaxTemperatures.size()) {
-            throw new ServiceException(ServiceErrorCode.INVALID_MIN_MAX_TEMP_MEASURES);
-        }
 
-
-        Map<Year, Double> yearToAvgMaxTemp = findAveragesByYear(consecutiveMaxTemperatures, orderedYears, measuresPerYear);
-
-        return yearToAvgMaxTemp;
+        return findAveragesByYear(consecutiveMaxTemperatures, orderedYears, measuresPerYear);
     }
 
     @Override
@@ -112,16 +104,7 @@ public class HistoricalWhetherAdapter implements HistoricalWhetherFacade {
         List<Year> orderedYears = getYearStream(begin, end).toList();
         List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();
         List<Double> consecutiveMaxTemperatures = measurements.getDailyMaxTemperatureMeasurements();
-        List<Double> consecutiveMinTemperatures = measurements.getDailyMinTemperatureMeasurements();
-        int measurementCount = consecutiveMinTemperatures.size();
-        if (measurementCount != consecutiveMaxTemperatures.size()) {
-            throw new ServiceException(ServiceErrorCode.INVALID_MIN_MAX_TEMP_MEASURES);
-        }
-
-
-        Map<Year, Double> yearToAvgMaxTemp = findAveragesByYear(consecutiveMaxTemperatures, orderedYears, measuresPerYear);
-
-        return yearToAvgMaxTemp;
+        return findAveragesByYear(consecutiveMaxTemperatures, orderedYears, measuresPerYear);
     }
 
     @Override

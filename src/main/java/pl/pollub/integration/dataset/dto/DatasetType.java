@@ -1,4 +1,4 @@
-package pl.pollub.integration.industry.web.dto;
+package pl.pollub.integration.dataset.dto;
 
 public enum DatasetType {
     PRODUCTION_IDX_AND_AVG_DAILY_TEMP("avg_daily_temp", "Zestawienie indeksu produkcji ze średnią temperaturą w zakresie lat"),

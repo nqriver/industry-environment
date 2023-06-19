@@ -6,8 +6,8 @@ import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 import pl.pollub.integration.industry.IndustrialProductionFacade;
-import pl.pollub.integration.industry.web.dto.CountryResponse;
-import pl.pollub.integration.industry.web.dto.IndustryHubResponse;
+import pl.pollub.integration.industry.dto.CountryResponse;
+import pl.pollub.integration.industry.dto.IndustryHubResponse;
 
 import java.util.List;
 import java.util.UUID;
@@ -32,7 +32,7 @@ public class CountryResource {
 
     @GET
     @Path("{countryId}/hubs")
-    public List<IndustryHubResponse> getCountryIndustryHubs(@PathParam("countryId") UUID countryId) {
+    public List<IndustryHubResponse> getIndustryHubsByCountry(@PathParam("countryId") UUID countryId) {
         return productionFacade.getIndustryHubsByCountry(countryId);
     }
 

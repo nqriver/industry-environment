@@ -1,7 +1,7 @@
 package pl.pollub.integration.industry.domain;
 
 import jakarta.persistence.*;
-import pl.pollub.integration.industry.web.dto.CountryResponse;
+import pl.pollub.integration.industry.dto.CountryResponse;
 
 import java.util.HashSet;
 import java.util.Objects;

@@ -1,7 +1,7 @@
 package pl.pollub.integration.industry.domain;
 
 import jakarta.persistence.*;
-import pl.pollub.integration.industry.web.dto.IndustryHubResponse;
+import pl.pollub.integration.industry.dto.IndustryHubResponse;
 
 import java.util.Objects;
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package pl.pollub.integration.industry.web.dto;
+package pl.pollub.integration.dataset.dto;
 
 import java.util.List;
 
