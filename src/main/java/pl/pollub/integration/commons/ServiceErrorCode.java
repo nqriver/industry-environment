@@ -9,7 +9,10 @@ public enum ServiceErrorCode {
     COUNTRY_NOT_FOUND("BMS04", "Country cannot be found", Response.Status.NOT_FOUND),
     INDUSTRY_HUB_NOT_FOUND("BMS04", "Cannot find industry hub", Response.Status.NOT_FOUND),
     INVALID_MIN_MAX_TEMP_MEASURES("BSM05", "Weather API service returned inconsistent number of measurement of min and max temperature", Response.Status.INTERNAL_SERVER_ERROR),
-    DATASET_OPTION_NOT_SUPPORTED("BSM05", "This dataset combination of attributes is unknown/disallowed", Response.Status.BAD_REQUEST);
+    DATASET_OPTION_NOT_SUPPORTED("BSM05", "This dataset combination of attributes is unknown/disallowed", Response.Status.BAD_REQUEST),
+    USER_EMAIL_TAKEN("BMS06", "User with chosen email already exists", Response.Status.CONFLICT),
+    USER_LOGIN_TAKEN("BMS07", "User with chosen login already exists", Response.Status.CONFLICT),
+    USER_NOT_FOUND("BMS08", "User cannot be found", Response.Status.NOT_FOUND);
     private final String code;
     private final String message;
 
