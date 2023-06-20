@@ -55,19 +55,19 @@ public class DatasetFacade {
         return switch (type) {
             case PRODUCTION_IDX_AND_AVG_DAILY_AMPLITUDE ->
                     historicalWeatherFacade.getAnnualAverageDailyTemperatureAmplitudeForRangeOfYears(begin, end,
-                            new Coordinates(industryHub.getLatitude(), industryHub.getLongitude()));
+                            new Coordinates(industryHub.getId(), industryHub.getLatitude(), industryHub.getLongitude()));
 
             case PRODUCTION_IDX_AND_AVG_DAILY_TEMP ->
                     historicalWeatherFacade.getAnnualAverageTemperaturesForRangeOfYears(begin, end,
-                            new Coordinates(industryHub.getLatitude(), industryHub.getLongitude()));
+                            new Coordinates(industryHub.getId(), industryHub.getLatitude(), industryHub.getLongitude()));
 
             case PRODUCTION_IDX_AND_AVG_MAX_DAILY_TEMP ->
                     historicalWeatherFacade.getAnnualAverageMaxDailyTemperatureForRangeOfYears(begin, end,
-                            new Coordinates(industryHub.getLatitude(), industryHub.getLongitude()));
+                            new Coordinates(industryHub.getId(), industryHub.getLatitude(), industryHub.getLongitude()));
 
             case PRODUCTION_IDX_AND_AVG_MIN_DAILY_TEMP ->
                     historicalWeatherFacade.getAnnualAverageMinDailyTemperatureForRangeOfYears(begin, end,
-                            new Coordinates(industryHub.getLatitude(), industryHub.getLongitude()));
+                            new Coordinates(industryHub.getId(), industryHub.getLatitude(), industryHub.getLongitude()));
             default -> throw new ServiceException(ServiceErrorCode.DATASET_OPTION_NOT_SUPPORTED);
         };
     }

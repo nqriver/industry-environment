@@ -1,4 +1,6 @@
 package pl.pollub.integration.commons;
 
-public record Coordinates(Double latitude, Double longitude) {
+import java.util.UUID;
+
+public record Coordinates(UUID hubId, Double latitude, Double longitude) {
 }

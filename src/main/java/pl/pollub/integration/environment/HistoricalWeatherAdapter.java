@@ -99,7 +99,7 @@ public class HistoricalWeatherAdapter implements HistoricalWeatherFacade {
                 coordinates.longitude().toString(),
                 getFormattedBeginDate(begin),
                 getFormattedEndDate(end),
-                "auto");
+                WEATHER_CLIENT_TIMEZONE);
 
         List<Year> orderedYears = getYearStream(begin, end).toList();
         List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();
@@ -116,7 +116,7 @@ public class HistoricalWeatherAdapter implements HistoricalWeatherFacade {
                 coordinates.longitude().toString(),
                 getFormattedBeginDate(begin),
                 getFormattedEndDate(end),
-                "auto");
+                WEATHER_CLIENT_TIMEZONE);
 
         List<Year> orderedYears = getYearStream(begin, end).toList();
         List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();

@@ -3,6 +3,7 @@ package pl.pollub.integration.industry;
 import io.quarkus.panache.common.Sort;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
+import pl.pollub.integration.commons.Coordinates;
 import pl.pollub.integration.commons.ServiceErrorCode;
 import pl.pollub.integration.commons.ServiceException;
 import pl.pollub.integration.industry.domain.*;
@@ -39,6 +40,12 @@ public class IndustrialProductionFacade {
                 .map(Country::toResponse)
                 .toList();
 
+    }
+
+    public List<Coordinates> getAllHubsCoordinates() {
+        return industryHubRepository.findAll().stream()
+                .map(hub -> new Coordinates(hub.getId(), hub.getLatitude(), hub.getLongitude()))
+                .toList();
     }
 
     public CountryResponse getCountry(UUID countryId) {

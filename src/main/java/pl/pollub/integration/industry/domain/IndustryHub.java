@@ -43,6 +43,10 @@ public class IndustryHub {
         return latitude;
     }
 
+    public UUID getId() {
+        return id;
+    }
+
     public Double getLongitude() {
         return longitude;
     }
