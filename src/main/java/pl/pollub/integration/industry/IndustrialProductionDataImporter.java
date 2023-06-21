@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.quarkus.logging.Log;
 import io.quarkus.runtime.StartupEvent;
 import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.event.Event;
 import jakarta.enterprise.event.Observes;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
@@ -34,6 +35,9 @@ public class IndustrialProductionDataImporter {
     @ConfigProperty(name = "import.data.industrial-production")
     String importFilename;
 
+
+    @Inject
+    Event<IndustrialDataImportedEvent> completionEventFirer;
 
     @Transactional
     void onStart(@Observes StartupEvent event) throws IOException {
@@ -69,7 +73,10 @@ public class IndustrialProductionDataImporter {
         ));
 
         Log.info("<IMPORT BATCH JOB> Finished import of industrial production indices dataset from json to database");
+        completionEventFirer.fire(new IndustrialDataImportedEvent());
     }
+
+    public record IndustrialDataImportedEvent() {}
 
     public static class IndustryProductionIndexRecord {
 

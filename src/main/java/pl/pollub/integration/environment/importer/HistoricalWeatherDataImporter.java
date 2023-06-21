@@ -1,7 +1,6 @@
 package pl.pollub.integration.environment.importer;
 
 import io.quarkus.logging.Log;
-import io.quarkus.runtime.StartupEvent;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.event.Observes;
 import jakarta.inject.Inject;
@@ -12,6 +11,7 @@ import pl.pollub.integration.environment.HistoricalWeatherFacade;
 import pl.pollub.integration.environment.domain.MeasuredValueType;
 import pl.pollub.integration.environment.domain.WeatherMeasurement;
 import pl.pollub.integration.environment.domain.WeatherMeasurementRepository;
+import pl.pollub.integration.industry.IndustrialProductionDataImporter.IndustrialDataImportedEvent;
 import pl.pollub.integration.industry.IndustrialProductionFacade;
 
 import java.time.Year;
@@ -34,14 +34,13 @@ public class HistoricalWeatherDataImporter {
     @ConfigProperty(name = "data-importer.historical-weather.enabled", defaultValue = "false")
     String importEnabled;
 
-    void runWeatherMeasurementsImportOnStart(@Observes StartupEvent event) throws InterruptedException {
+    void runWeatherMeasurementsImportOnStart(@Observes IndustrialDataImportedEvent event) {
         if (!Boolean.parseBoolean(importEnabled)) {
             return;
         }
-        Thread.sleep(3000);
-//        importMinTemperaturesOnStart();
+        importMinTemperaturesOnStart();
         importMaxTemperaturesOnStart();
-//        importAvgTemperaturesOnStart();
+        importAvgTemperaturesOnStart();
     }
 
 
