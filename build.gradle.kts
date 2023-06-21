@@ -15,6 +15,7 @@ val quarkusPlatformVersion: String by project
 dependencies {
     implementation(enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}"))
     implementation("io.quarkus:quarkus-resteasy-reactive-jackson")
+    implementation("io.quarkus:quarkus-resteasy-reactive-jaxb")
     implementation("io.quarkus:quarkus-rest-client-reactive")
     implementation("io.quarkus:quarkus-flyway")
     implementation("io.quarkus:quarkus-resteasy-reactive")
@@ -29,7 +30,6 @@ dependencies {
     implementation("io.quarkus:quarkus-arc")
     implementation("io.quarkus:quarkus-hibernate-orm")
     implementation("io.quarkus:quarkus-smallrye-openapi")
-    implementation("io.vavr:vavr:0.9.0")
     testImplementation("io.quarkus:quarkus-junit5")
     testImplementation("io.rest-assured:rest-assured")
 }
