@@ -86,6 +86,10 @@ public class User {
         this.phoneNumber = phoneNumber;
     }
 
+    private void setRole(UserRole role) {
+        this.userRole = role;
+    }
+
 
     public static User fromRequest(UserRegistrationRequest registrationRequest) {
         User manager = new User();
@@ -94,6 +98,7 @@ public class User {
         manager.setEmail(registrationRequest.email());
         manager.setPassword(BcryptUtil.bcryptHash(registrationRequest.password()));
         manager.setPhoneNumber(registrationRequest.phoneNumber());
+        manager.setRole(registrationRequest.role());
         return manager;
     }
 
