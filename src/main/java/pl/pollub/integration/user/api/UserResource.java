@@ -21,7 +21,7 @@ public class UserResource {
 
     @PUT
     @Path("/{userId}")
-    public UserResponse editManager(@PathParam("userId") UUID userId, UserEditRequest editRequest) {
+    public UserResponse editUser(@PathParam("userId") UUID userId, UserEditRequest editRequest) {
         return userFacade.edit(userId, editRequest);
     }
 
