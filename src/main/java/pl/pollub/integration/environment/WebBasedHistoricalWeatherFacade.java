@@ -98,7 +98,7 @@ public class WebBasedHistoricalWeatherFacade implements HistoricalWeatherFacade 
 
 
         DailyTemperatureMeasurement measurements = weatherApiClient.getHistoricalMinMaxTemperatureMeasurements(
-                new String[]{MAX_DAILY_TEMP_QUERY},
+                new String[]{MIN_DAILY_TEMP_QUERY},
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
                 getFormattedBeginDate(begin),
@@ -107,7 +107,7 @@ public class WebBasedHistoricalWeatherFacade implements HistoricalWeatherFacade 
 
         List<Year> orderedYears = getYearStream(begin, end).toList();
         List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();
-        List<Double> consecutiveMaxTemperatures = measurements.getDailyMaxTemperatureMeasurements();
+        List<Double> consecutiveMaxTemperatures = measurements.getDailyMinTemperatureMeasurements();
         return findAveragesByYear(consecutiveMaxTemperatures, orderedYears, measuresPerYear);
     }
 

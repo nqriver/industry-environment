@@ -55,14 +55,14 @@ public class HistoricalWeatherFacadeDecorator implements HistoricalWeatherFacade
 
     @Override
     public Map<Year, Double> getAnnualAverageMinDailyTemperatureForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
-        Map<Year, Double> annualAverageMaxDailyTemperatureForRangeOfYears = measurementRepository
-                .getAnnualAverageMaxDailyTemperatureForRangeOfYears(begin, end, coordinates);
-        if (!annualAverageMaxDailyTemperatureForRangeOfYears.isEmpty()) {
+        Map<Year, Double> annualAverageMinDailyTemperatureForRangeOfYears = measurementRepository
+                .getAnnualAverageMinDailyTemperatureForRangeOfYears(begin, end, coordinates);
+        if (!annualAverageMinDailyTemperatureForRangeOfYears.isEmpty()) {
             Log.info("Fetching annual avg min daily temperature from db");
-            return annualAverageMaxDailyTemperatureForRangeOfYears;
+            return annualAverageMinDailyTemperatureForRangeOfYears;
         }
         Log.info("Fetching annual avg min daily temperature from web client");
-        return webAdapter.getAnnualAverageMaxDailyTemperatureForRangeOfYears(begin, end, coordinates);
+        return webAdapter.getAnnualAverageMinDailyTemperatureForRangeOfYears(begin, end, coordinates);
     }
 
     @Override
