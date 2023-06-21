@@ -1,7 +1,8 @@
 package pl.pollub.integration.dataset;
 
+import io.quarkus.cache.CacheKey;
+import io.quarkus.cache.CacheResult;
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.enterprise.inject.Default;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 import pl.pollub.integration.commons.Coordinates;
@@ -36,7 +37,8 @@ public class DatasetFacade {
     HistoricalWeatherFacade historicalWeatherFacade;
 
 
-    public Dataset getSummaryDataset(DatasetRequest request) {
+    @CacheResult(cacheName = "datasetRedisCache")
+    public Dataset getSummaryDataset(@CacheKey DatasetRequest request) {
         UUID industryHubId = request.hubId();
         Year begin = request.start();
         Year end = request.end();
@@ -47,7 +49,9 @@ public class DatasetFacade {
         Map<Year, IndustrialProductionMeasurement> annualProductionMeasurements = industrialProductionFacade
                 .getAnnualProductionMeasurements(begin, end, country);
 
-        Map<Year, Double> annualWeatherAttributes = resolveWeatherAttributes(begin, end, type, industryHub);
+        Coordinates coordinates = industryHub.toCoordinates();
+
+        Map<Year, Double> annualWeatherAttributes = resolveWeatherAttributes(begin, end, type, coordinates);
 
         List<DatasetRecord> records = getYearsStream(begin, end)
                 .map(year -> assembleDatasetRecord(annualProductionMeasurements, annualWeatherAttributes, year)).toList();
@@ -55,23 +59,19 @@ public class DatasetFacade {
         return new Dataset(type.description(), type.measuredWeatherValue(), records);
     }
 
-    private Map<Year, Double> resolveWeatherAttributes(Year begin, Year end, DatasetType type, IndustryHub industryHub) {
+    private Map<Year, Double> resolveWeatherAttributes(Year begin, Year end, DatasetType type, Coordinates coordinates) {
         return switch (type) {
             case PRODUCTION_IDX_AND_AVG_DAILY_AMPLITUDE ->
-                    historicalWeatherFacade.getAnnualAverageDailyTemperatureAmplitudeForRangeOfYears(begin, end,
-                            new Coordinates(industryHub.getId(), industryHub.getLatitude(), industryHub.getLongitude()));
+                    historicalWeatherFacade.getAnnualAverageDailyTemperatureAmplitudeForRangeOfYears(begin, end, coordinates);
 
             case PRODUCTION_IDX_AND_AVG_DAILY_TEMP ->
-                    historicalWeatherFacade.getAnnualAverageTemperaturesForRangeOfYears(begin, end,
-                            new Coordinates(industryHub.getId(), industryHub.getLatitude(), industryHub.getLongitude()));
+                    historicalWeatherFacade.getAnnualAverageTemperaturesForRangeOfYears(begin, end, coordinates);
 
             case PRODUCTION_IDX_AND_AVG_MAX_DAILY_TEMP ->
-                    historicalWeatherFacade.getAnnualAverageMaxDailyTemperatureForRangeOfYears(begin, end,
-                            new Coordinates(industryHub.getId(), industryHub.getLatitude(), industryHub.getLongitude()));
+                    historicalWeatherFacade.getAnnualAverageMaxDailyTemperatureForRangeOfYears(begin, end, coordinates);
 
             case PRODUCTION_IDX_AND_AVG_MIN_DAILY_TEMP ->
-                    historicalWeatherFacade.getAnnualAverageMinDailyTemperatureForRangeOfYears(begin, end,
-                            new Coordinates(industryHub.getId(), industryHub.getLatitude(), industryHub.getLongitude()));
+                    historicalWeatherFacade.getAnnualAverageMinDailyTemperatureForRangeOfYears(begin, end, coordinates);
             default -> throw new ServiceException(ServiceErrorCode.DATASET_OPTION_NOT_SUPPORTED);
         };
     }
