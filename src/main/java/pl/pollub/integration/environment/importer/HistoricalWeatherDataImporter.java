@@ -1,17 +1,17 @@
 package pl.pollub.integration.environment.importer;
 
 import io.quarkus.logging.Log;
+import io.quarkus.runtime.StartupEvent;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.enterprise.event.Observes;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import pl.pollub.integration.commons.Coordinates;
-import pl.pollub.integration.environment.HistoricalWeatherFacade;
+import pl.pollub.integration.environment.WebBasedHistoricalWeatherFacade;
 import pl.pollub.integration.environment.domain.MeasuredValueType;
 import pl.pollub.integration.environment.domain.WeatherMeasurement;
 import pl.pollub.integration.environment.domain.WeatherMeasurementRepository;
-import pl.pollub.integration.industry.IndustrialProductionDataImporter.IndustrialDataImportedEvent;
 import pl.pollub.integration.industry.IndustrialProductionFacade;
 
 import java.time.Year;
@@ -23,10 +23,12 @@ public class HistoricalWeatherDataImporter {
 
     public static final Year UPPER_YEAR_LIMIT = Year.now().minusYears(1);
     public static final Year LOWER_YEAR_LIMIT = Year.of(1950);
+
     @Inject
     IndustrialProductionFacade industrialProductionFacade;
+
     @Inject
-    HistoricalWeatherFacade weatherFacade;
+    WebBasedHistoricalWeatherFacade weatherFacade;
 
     @Inject
     WeatherMeasurementRepository weatherMeasurementRepository;
@@ -34,7 +36,7 @@ public class HistoricalWeatherDataImporter {
     @ConfigProperty(name = "data-importer.historical-weather.enabled", defaultValue = "false")
     String importEnabled;
 
-    void runWeatherMeasurementsImportOnStart(@Observes IndustrialDataImportedEvent event) {
+    void runWeatherMeasurementsImportOnStart(@Observes StartupEvent event) {
         if (!Boolean.parseBoolean(importEnabled)) {
             return;
         }
@@ -65,6 +67,7 @@ public class HistoricalWeatherDataImporter {
         }
         Log.info("<IMPORT BATCH JOB> Starting import of yearly average temperature for all registered industry-hubs for range of years [%d] - [%d]");
         List<Coordinates> allHubsCoordinates = industrialProductionFacade.getAllHubsCoordinates();
+        Log.infof("hubs [%d][%s]", allHubsCoordinates.size(), allHubsCoordinates);
 
         allHubsCoordinates.forEach(
                 this::importAvgTemperatures
@@ -86,42 +89,53 @@ public class HistoricalWeatherDataImporter {
         Log.info("<IMPORT BATCH JOB> Finished import of historical weather dataset from json to database");
     }
 
-    @Transactional
     public void importMaxTemperatures(Coordinates hub) {
         Map<Year, Double> dataset = weatherFacade.getAnnualAverageMaxDailyTemperatureForRangeOfYears(LOWER_YEAR_LIMIT, UPPER_YEAR_LIMIT, hub);
+        persistMaxTemperatures(hub, dataset);
+        Log.infof("<IMPORT BATCH JOB> Imported measurements for hub [%s]", hub.toString());
+    }
+
+    @Transactional(Transactional.TxType.REQUIRES_NEW)
+    public void persistMaxTemperatures(Coordinates hub, Map<Year, Double> dataset) {
         dataset.forEach(
                 (year, measurement) -> {
                     WeatherMeasurement entity = WeatherMeasurement.ofYearlyAvgMaxDailyTemperature(hub.hubId(), measurement, year);
                     weatherMeasurementRepository.persist(entity);
                 }
         );
-        Log.infof("<IMPORT BATCH JOB> Imported measurements for hub [%s]", hub.toString());
     }
 
-    @Transactional
     public void importAvgTemperatures(Coordinates hub) {
         Map<Year, Double> dataset = weatherFacade.getAnnualAverageTemperaturesForRangeOfYears(LOWER_YEAR_LIMIT, UPPER_YEAR_LIMIT, hub);
+        persistAvgTemperatures(hub, dataset);
+        Log.infof("<IMPORT BATCH JOB> Imported measurements for hub [%s]", hub.toString());
+
+    }
+
+    @Transactional(Transactional.TxType.REQUIRES_NEW)
+    public void persistAvgTemperatures(Coordinates hub, Map<Year, Double> dataset) {
         dataset.forEach(
                 (year, measurement) -> {
                     WeatherMeasurement entity = WeatherMeasurement.ofYearlyAvgTemperature(hub.hubId(), measurement, year);
                     weatherMeasurementRepository.persist(entity);
                 }
         );
-        Log.infof("<IMPORT BATCH JOB> Imported measurements for hub [%s]", hub.toString());
-
     }
 
-
-    @Transactional
     public void importMinTemperatures(Coordinates hub) {
         Map<Year, Double> dataset = weatherFacade.getAnnualAverageMinDailyTemperatureForRangeOfYears(LOWER_YEAR_LIMIT, UPPER_YEAR_LIMIT, hub);
+        persistMinTemperatures(hub, dataset);
+        Log.infof("<IMPORT BATCH JOB> Imported measurements for hub [%s]", hub.toString());
+    }
+
+    @Transactional(Transactional.TxType.REQUIRES_NEW)
+    public void persistMinTemperatures(Coordinates hub, Map<Year, Double> dataset) {
         dataset.forEach(
                 (year, measurement) -> {
                     WeatherMeasurement entity = WeatherMeasurement.ofYearlyAvgMinDailyTemperature(hub.hubId(), measurement, year);
                     weatherMeasurementRepository.persist(entity);
                 }
         );
-        Log.infof("<IMPORT BATCH JOB> Imported measurements for hub [%s]", hub.toString());
     }
 
 }

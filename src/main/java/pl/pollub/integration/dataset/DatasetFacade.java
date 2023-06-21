@@ -1,7 +1,9 @@
 package pl.pollub.integration.dataset;
 
 import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.inject.Default;
 import jakarta.inject.Inject;
+import jakarta.inject.Named;
 import pl.pollub.integration.commons.Coordinates;
 import pl.pollub.integration.commons.ServiceErrorCode;
 import pl.pollub.integration.commons.ServiceException;
@@ -10,6 +12,7 @@ import pl.pollub.integration.dataset.dto.DatasetRecord;
 import pl.pollub.integration.dataset.dto.DatasetRequest;
 import pl.pollub.integration.dataset.dto.DatasetType;
 import pl.pollub.integration.environment.HistoricalWeatherFacade;
+import pl.pollub.integration.environment.HistoricalWeatherFacadeDecorator;
 import pl.pollub.integration.industry.IndustrialProductionFacade;
 import pl.pollub.integration.industry.domain.Country;
 import pl.pollub.integration.industry.domain.IndustrialProductionMeasurement;
@@ -29,6 +32,7 @@ public class DatasetFacade {
 
 
     @Inject
+    @Named(HistoricalWeatherFacadeDecorator.QUALIFIER)
     HistoricalWeatherFacade historicalWeatherFacade;
 
 

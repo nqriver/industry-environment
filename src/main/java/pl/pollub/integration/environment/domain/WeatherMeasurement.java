@@ -54,4 +54,12 @@ public class WeatherMeasurement {
         return new WeatherMeasurement(hubId, MeasuredValueType.YEARLY_AVG_MAX_DAILY_TEMPERATURE, value, year.getValue());
 
     }
+
+    public Year year() {
+        return Year.of(this.year);
+    }
+
+    public Double measurementValue() {
+        return this.value;
+    }
 }
