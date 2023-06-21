@@ -14,7 +14,7 @@ import java.util.Map;
 
 /**
  * This class decorates WebBasedHistoricalWeatherFacade for optimization purposes. It first checks if the requested data
- * is persistent in WeatherMeasurementRepository - if so it returns it, if not it calls external web api to fetch that data.
+ * is persistent in WeatherMeasurementRepository - if so it returns it, if not it calls external api api to fetch that data.
  * It also serves the purpose of data accessibility - it should try to fetch the requested data from two sources
  */
 @ApplicationScoped
@@ -37,7 +37,7 @@ public class HistoricalWeatherFacadeDecorator implements HistoricalWeatherFacade
             Log.info("Fetching annual avg temperature from db");
             return annualAverageTemperaturesForRangeOfYears;
         }
-        Log.info("Fetching annual avg temperature from web client");
+        Log.info("Fetching annual avg temperature from api client");
         return webAdapter.getAnnualAverageTemperaturesForRangeOfYears(begin, end, coordinates);
     }
 
@@ -49,7 +49,7 @@ public class HistoricalWeatherFacadeDecorator implements HistoricalWeatherFacade
             Log.info("Fetching annual avg max daily temperature from db");
             return annualAverageMaxDailyTemperatureForRangeOfYears;
         }
-        Log.info("Fetching annual avg max daily temperature from web client");
+        Log.info("Fetching annual avg max daily temperature from api client");
         return webAdapter.getAnnualAverageMaxDailyTemperatureForRangeOfYears(begin, end, coordinates);
     }
 
@@ -61,7 +61,7 @@ public class HistoricalWeatherFacadeDecorator implements HistoricalWeatherFacade
             Log.info("Fetching annual avg min daily temperature from db");
             return annualAverageMinDailyTemperatureForRangeOfYears;
         }
-        Log.info("Fetching annual avg min daily temperature from web client");
+        Log.info("Fetching annual avg min daily temperature from api client");
         return webAdapter.getAnnualAverageMinDailyTemperatureForRangeOfYears(begin, end, coordinates);
     }
 

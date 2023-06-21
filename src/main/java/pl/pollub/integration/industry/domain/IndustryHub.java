@@ -1,6 +1,7 @@
 package pl.pollub.integration.industry.domain;
 
 import jakarta.persistence.*;
+import pl.pollub.integration.commons.Coordinates;
 import pl.pollub.integration.industry.dto.IndustryHubResponse;
 
 import java.util.Objects;
@@ -66,5 +67,9 @@ public class IndustryHub {
 
     public IndustryHubResponse toResponse() {
         return new IndustryHubResponse(id, hubName, mainCityNearby, population, gdpPerCapita, latitude, longitude);
+    }
+
+    public Coordinates toCoordinates() {
+        return new Coordinates(id, latitude, longitude);
     }
 }

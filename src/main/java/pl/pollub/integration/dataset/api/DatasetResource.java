@@ -1,5 +1,6 @@
-package pl.pollub.integration.dataset.web;
+package pl.pollub.integration.dataset.api;
 
+import jakarta.annotation.security.RolesAllowed;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
@@ -7,7 +8,6 @@ import pl.pollub.integration.dataset.DatasetFacade;
 import pl.pollub.integration.dataset.dto.Dataset;
 import pl.pollub.integration.dataset.dto.DatasetRequest;
 import pl.pollub.integration.dataset.dto.DatasetType;
-import pl.pollub.integration.dataset.dto.jaxb.DatasetRecordXml;
 import pl.pollub.integration.dataset.dto.jaxb.DatasetXml;
 
 import java.time.Year;
@@ -24,6 +24,7 @@ public class DatasetResource {
 
     @GET
     @Path("{hubId}")
+    @RolesAllowed({"ADMIN", "CONTENT_VIEWER", "CONTENT_MANAGER"})
     public Dataset getDataset(@PathParam("hubId") UUID hubId,
                               @QueryParam("type") DatasetType type,
                               @QueryParam("begin") int beginYear,
@@ -36,6 +37,7 @@ public class DatasetResource {
 
     @GET
     @Path("/{hubId}/xml")
+    @RolesAllowed({"ADMIN", "CONTENT_DOWNLOADER", "CONTENT_MANAGER"})
     @Produces(APPLICATION_XML)
     public DatasetXml getDatasetXml(@PathParam("hubId") UUID hubId,
                                           @QueryParam("type") DatasetType type,

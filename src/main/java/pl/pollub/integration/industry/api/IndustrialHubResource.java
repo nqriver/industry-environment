@@ -1,4 +1,4 @@
-package pl.pollub.integration.industry.web;
+package pl.pollub.integration.industry.api;
 
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;

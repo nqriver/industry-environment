@@ -3,7 +3,6 @@ package pl.pollub.integration.environment;
 import io.quarkus.logging.Log;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Named;
-import jdk.jfr.Name;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
 import pl.pollub.integration.commons.Coordinates;
 import pl.pollub.integration.commons.ServiceErrorCode;
@@ -29,7 +28,7 @@ public class WebBasedHistoricalWeatherFacade implements HistoricalWeatherFacade 
     public static final String WEATHER_CLIENT_TIMEZONE = "auto";
     public static final String MAX_DAILY_TEMP_QUERY = "temperature_2m_max";
     public static final String MIN_DAILY_TEMP_QUERY = "temperature_2m_min";
-    public static final String QUALIFIER = "web-based";
+    public static final String QUALIFIER = "api-based";
     @RestClient
     WeatherApiClient weatherApiClient;
 
