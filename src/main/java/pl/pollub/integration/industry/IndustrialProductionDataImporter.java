@@ -36,9 +36,6 @@ public class IndustrialProductionDataImporter {
     String importFilename;
 
 
-    @Inject
-    Event<IndustrialDataImportedEvent> completionEventFirer;
-
     @Transactional
     void onStart(@Observes StartupEvent event) throws IOException {
         Log.info("<IMPORT BATCH JOB> Starting import of industrial production indices dataset from json to database");
@@ -73,10 +70,8 @@ public class IndustrialProductionDataImporter {
         ));
 
         Log.info("<IMPORT BATCH JOB> Finished import of industrial production indices dataset from json to database");
-        completionEventFirer.fire(new IndustrialDataImportedEvent());
     }
 
-    public record IndustrialDataImportedEvent() {}
 
     public static class IndustryProductionIndexRecord {
 
