@@ -1,7 +1,6 @@
 package pl.pollub.integration.user.api;
 
 import io.quarkus.security.Authenticated;
-import io.quarkus.security.UnauthorizedException;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
@@ -31,7 +30,7 @@ public class UserResource {
     @Authenticated
     public UserResponse editUser(@PathParam("userId") UUID userId, UserEditRequest editRequest) {
         if (!Objects.equals(loggedInUserJwt.getClaim("userId"), userId.toString())) {
-            throw new UnauthorizedException();
+            throw new ForbiddenException();
         }
         return userFacade.edit(userId, editRequest);
     }
@@ -42,7 +41,7 @@ public class UserResource {
     @Authenticated
     public UserResponse getUser(@PathParam("userId") UUID userId) {
         if (!Objects.equals(loggedInUserJwt.getClaim("userId"), userId.toString())) {
-            throw new UnauthorizedException();
+            throw new ForbiddenException();
         }
         return userFacade.get(userId);
     }

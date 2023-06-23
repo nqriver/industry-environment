@@ -6,8 +6,6 @@ import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
 import pl.pollub.integration.commons.Coordinates;
-import pl.pollub.integration.commons.ServiceErrorCode;
-import pl.pollub.integration.commons.ServiceException;
 import pl.pollub.integration.dataset.dto.Dataset;
 import pl.pollub.integration.dataset.dto.DatasetRecord;
 import pl.pollub.integration.dataset.dto.DatasetRequest;
@@ -72,7 +70,6 @@ public class DatasetFacade {
 
             case PRODUCTION_IDX_AND_AVG_MIN_DAILY_TEMP ->
                     historicalWeatherFacade.getAnnualAverageMinDailyTemperatureForRangeOfYears(begin, end, coordinates);
-            default -> throw new ServiceException(ServiceErrorCode.DATASET_OPTION_NOT_SUPPORTED);
         };
     }
 
