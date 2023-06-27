@@ -6,6 +6,7 @@ import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.QueryParam;
+import pl.pollub.integration.commons.RangeOfYears;
 import pl.pollub.integration.industry.IndustrialProductionFacade;
 import pl.pollub.integration.industry.domain.IndustrialProductionMeasurement;
 
@@ -27,7 +28,7 @@ public class IndustrialHubResource {
                                                                  @QueryParam("begin") int beginYear,
                                                                  @QueryParam("end") int endYear) {
 
-        return industrialProductionFacade.getAnnualProductionMeasurements(Year.of(beginYear), Year.of(endYear), hubId);
+        return industrialProductionFacade.getAnnualProductionMeasurements(RangeOfYears.of(Year.of(beginYear), Year.of(endYear)), hubId);
     }
 
 }

@@ -4,6 +4,7 @@ import io.quarkus.panache.common.Sort;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import pl.pollub.integration.commons.Coordinates;
+import pl.pollub.integration.commons.RangeOfYears;
 import pl.pollub.integration.commons.ServiceErrorCode;
 import pl.pollub.integration.commons.ServiceException;
 import pl.pollub.integration.industry.domain.*;
@@ -57,9 +58,9 @@ public class IndustrialProductionFacade {
         return country.getIndustryHubs().stream().map(IndustryHub::toResponse).toList();
     }
 
-    public Map<Year, IndustrialProductionMeasurement> getAnnualProductionMeasurements(Year begin, Year end, Country country) {
+    public Map<Year, IndustrialProductionMeasurement> getAnnualProductionMeasurements(RangeOfYears rangeOfYears, Country country) {
         return measurementRepository
-                .findMeasurementsByCountryForYearsInRange(country, begin, end)
+                .findMeasurementsByCountryForYearsInRange(country, rangeOfYears.start(), rangeOfYears.end())
                 .stream()
                 .collect(Collectors.toMap(IndustrialProductionMeasurement::year, measurement -> measurement));
     }
@@ -70,8 +71,8 @@ public class IndustrialProductionFacade {
     }
 
 
-    public Map<Year, IndustrialProductionMeasurement> getAnnualProductionMeasurements(Year start, Year end, UUID hubId) {
+    public Map<Year, IndustrialProductionMeasurement> getAnnualProductionMeasurements(RangeOfYears range, UUID hubId) {
         IndustryHub industryHub = findIndustryHub(hubId);
-        return getAnnualProductionMeasurements(start, end, industryHub.locationCountry());
+        return getAnnualProductionMeasurements(range, industryHub.locationCountry());
     }
 }

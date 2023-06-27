@@ -4,6 +4,7 @@ import jakarta.annotation.security.RolesAllowed;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
+import pl.pollub.integration.commons.RangeOfYears;
 import pl.pollub.integration.dataset.DatasetFacade;
 import pl.pollub.integration.dataset.dto.Dataset;
 import pl.pollub.integration.dataset.dto.DatasetRequest;
@@ -30,7 +31,8 @@ public class DatasetResource {
                               @QueryParam("begin") int beginYear,
                               @QueryParam("end") int endYear) {
 
-        DatasetRequest request = new DatasetRequest(Year.of(beginYear), Year.of(endYear), type, hubId);
+        RangeOfYears range = RangeOfYears.of(Year.of(beginYear), Year.of(endYear));
+        DatasetRequest request = new DatasetRequest(range, type, hubId);
         return datasetFacade.getSummaryDataset(request);
     }
 
@@ -44,8 +46,8 @@ public class DatasetResource {
                                           @QueryParam("begin") int beginYear,
                                           @QueryParam("end") int endYear) {
 
-        DatasetRequest request = new DatasetRequest(Year.of(beginYear), Year.of(endYear), type, hubId);
+        RangeOfYears range = RangeOfYears.of(Year.of(beginYear), Year.of(endYear));
+        DatasetRequest request = new DatasetRequest(range, type, hubId);
         return DatasetXml.toJaxbModel(datasetFacade.getSummaryDataset(request));
     }
-
 }

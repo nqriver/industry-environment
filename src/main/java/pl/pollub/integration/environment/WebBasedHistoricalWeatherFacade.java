@@ -4,9 +4,7 @@ import io.quarkus.logging.Log;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Named;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
-import pl.pollub.integration.commons.Coordinates;
-import pl.pollub.integration.commons.ServiceErrorCode;
-import pl.pollub.integration.commons.ServiceException;
+import pl.pollub.integration.commons.*;
 import pl.pollub.integration.environment.client.WeatherApiClient;
 import pl.pollub.integration.environment.client.response.DailyTemperatureMeasurement;
 import pl.pollub.integration.environment.client.response.HourlyTemperatureStatistics;
@@ -47,19 +45,18 @@ public class WebBasedHistoricalWeatherFacade implements HistoricalWeatherFacade 
 
 
     @Override
-    public Map<Year, Double> getAnnualAverageTemperaturesForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
-        assertBeginIsBeforeEnd(begin, end);
+    public Map<Year, Double> getAnnualAverageTemperaturesForRangeOfYears(RangeOfYears range, Coordinates coordinates) {
         HourlyTemperatureStatistics statistics = weatherApiClient.getHistoricalHourlyTemperatureMeasurements(
                 HOURLY_TEMPERATURE_QUERY,
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
-                getFormattedBeginDate(begin),
-                getFormattedEndDate(end));
+                getFormattedBeginDate(range.start()),
+                getFormattedEndDate(range.end()));
 
 
         List<Double> consecutiveMeasurements = statistics.getConsecutiveMeasurements();
 
-        List<Year> orderedYears = getYearStream(begin, end).toList();
+        List<Year> orderedYears = RangeOfYearsUtils.getYearsStream(range).toList();
 
         List<Integer> measurementsPerConsecutiveYears = orderedYears.stream()
                 .map(Year::length)
@@ -68,23 +65,21 @@ public class WebBasedHistoricalWeatherFacade implements HistoricalWeatherFacade 
 
         Map<Year, Double> yearToAverageTemperature = findAveragesByYear(consecutiveMeasurements, orderedYears, measurementsPerConsecutiveYears);
 
-        Log.infof("Finished generating avg temperature report for years of range %s-%s and coordinates %s", begin, end, coordinates);
+        Log.infof("Finished generating avg temperature report for years of range %s-%s and coordinates %s", range.start(), range.end(), coordinates);
         return yearToAverageTemperature;
     }
 
     @Override
-    public Map<Year, Double> getAnnualAverageMaxDailyTemperatureForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
-        assertBeginIsBeforeEnd(begin, end);
-
+    public Map<Year, Double> getAnnualAverageMaxDailyTemperatureForRangeOfYears(RangeOfYears range, Coordinates coordinates) {
         DailyTemperatureMeasurement measurements = weatherApiClient.getHistoricalMinMaxTemperatureMeasurements(
                 new String[]{MAX_DAILY_TEMP_QUERY},
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
-                getFormattedBeginDate(begin),
-                getFormattedEndDate(end),
+                getFormattedBeginDate(range.start()),
+                getFormattedEndDate(range.end()),
                 WEATHER_CLIENT_TIMEZONE);
 
-        List<Year> orderedYears = getYearStream(begin, end).toList();
+        List<Year> orderedYears = RangeOfYearsUtils.getYearsStream(range).toList();
         List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();
         List<Double> consecutiveMaxTemperatures = measurements.getDailyMaxTemperatureMeasurements();
 
@@ -92,36 +87,32 @@ public class WebBasedHistoricalWeatherFacade implements HistoricalWeatherFacade 
     }
 
     @Override
-    public Map<Year, Double> getAnnualAverageMinDailyTemperatureForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
-        assertBeginIsBeforeEnd(begin, end);
-
-
+    public Map<Year, Double> getAnnualAverageMinDailyTemperatureForRangeOfYears(RangeOfYears range, Coordinates coordinates) {
         DailyTemperatureMeasurement measurements = weatherApiClient.getHistoricalMinMaxTemperatureMeasurements(
                 new String[]{MIN_DAILY_TEMP_QUERY},
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
-                getFormattedBeginDate(begin),
-                getFormattedEndDate(end),
+                getFormattedBeginDate(range.start()),
+                getFormattedEndDate(range.end()),
                 WEATHER_CLIENT_TIMEZONE);
 
-        List<Year> orderedYears = getYearStream(begin, end).toList();
+        List<Year> orderedYears = RangeOfYearsUtils.getYearsStream(range).toList();
         List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();
         List<Double> consecutiveMaxTemperatures = measurements.getDailyMinTemperatureMeasurements();
         return findAveragesByYear(consecutiveMaxTemperatures, orderedYears, measuresPerYear);
     }
 
     @Override
-    public Map<Year, Double> getAnnualAverageDailyTemperatureAmplitudeForRangeOfYears(Year begin, Year end, Coordinates coordinates) {
-        assertBeginIsBeforeEnd(begin, end);
+    public Map<Year, Double> getAnnualAverageDailyTemperatureAmplitudeForRangeOfYears(RangeOfYears range, Coordinates coordinates) {
         DailyTemperatureMeasurement measurements = weatherApiClient.getHistoricalMinMaxTemperatureMeasurements(
                 new String[]{MAX_DAILY_TEMP_QUERY, MIN_DAILY_TEMP_QUERY},
                 coordinates.latitude().toString(),
                 coordinates.longitude().toString(),
-                getFormattedBeginDate(begin),
-                getFormattedEndDate(end),
+                getFormattedBeginDate(range.start()),
+                getFormattedEndDate(range.end()),
                 WEATHER_CLIENT_TIMEZONE);
 
-        List<Year> orderedYears = getYearStream(begin, end).toList();
+        List<Year> orderedYears = RangeOfYearsUtils.getYearsStream(range).toList();
         List<Integer> measuresPerYear = orderedYears.stream().map(Year::length).toList();
         List<Double> consecutiveMaxTemperatures = measurements.getDailyMaxTemperatureMeasurements();
         List<Double> consecutiveMinTemperatures = measurements.getDailyMinTemperatureMeasurements();
@@ -150,15 +141,6 @@ public class WebBasedHistoricalWeatherFacade implements HistoricalWeatherFacade 
         return null;
     }
 
-    private Stream<Year> getYearStream(Year begin, Year end) {
-        return Stream.iterate(begin, value -> value.isBefore(end.plusYears(1)), e -> e.plusYears(1));
-    }
-
-    private void assertBeginIsBeforeEnd(Year begin, Year end) {
-        if (begin.isAfter(end)) {
-            throw new ServiceException(ServiceErrorCode.INVALID_DATES_RANGE);
-        }
-    }
 
     private Map<Year, Double> findAveragesByYear(List<Double> consecutiveMeasurements, List<Year> orderedYears, List<Integer> measurementsPerConsecutiveYears) {
         Map<Year, Double> yearToAverageTemperature = new HashMap<>();

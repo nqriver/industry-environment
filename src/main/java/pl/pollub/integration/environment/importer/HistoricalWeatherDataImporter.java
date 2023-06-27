@@ -8,6 +8,7 @@ import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 import pl.pollub.integration.commons.Coordinates;
+import pl.pollub.integration.commons.RangeOfYears;
 import pl.pollub.integration.environment.WebBasedHistoricalWeatherFacade;
 import pl.pollub.integration.environment.domain.MeasuredValueType;
 import pl.pollub.integration.environment.domain.WeatherMeasurement;
@@ -23,6 +24,8 @@ public class HistoricalWeatherDataImporter {
 
     public static final Year UPPER_YEAR_LIMIT = Year.now().minusYears(1);
     public static final Year LOWER_YEAR_LIMIT = Year.of(1950);
+
+    public static final RangeOfYears RANGE = RangeOfYears.of(LOWER_YEAR_LIMIT, UPPER_YEAR_LIMIT);
 
     @Inject
     IndustrialProductionFacade industrialProductionFacade;
@@ -90,7 +93,7 @@ public class HistoricalWeatherDataImporter {
     }
 
     public void importMaxTemperatures(Coordinates hub) {
-        Map<Year, Double> dataset = weatherFacade.getAnnualAverageMaxDailyTemperatureForRangeOfYears(LOWER_YEAR_LIMIT, UPPER_YEAR_LIMIT, hub);
+        Map<Year, Double> dataset = weatherFacade.getAnnualAverageMaxDailyTemperatureForRangeOfYears(RANGE, hub);
         persistMaxTemperatures(hub, dataset);
         Log.infof("<IMPORT BATCH JOB> Imported measurements for hub [%s]", hub.toString());
     }
@@ -106,7 +109,7 @@ public class HistoricalWeatherDataImporter {
     }
 
     public void importAvgTemperatures(Coordinates hub) {
-        Map<Year, Double> dataset = weatherFacade.getAnnualAverageTemperaturesForRangeOfYears(LOWER_YEAR_LIMIT, UPPER_YEAR_LIMIT, hub);
+        Map<Year, Double> dataset = weatherFacade.getAnnualAverageTemperaturesForRangeOfYears(RANGE, hub);
         persistAvgTemperatures(hub, dataset);
         Log.infof("<IMPORT BATCH JOB> Imported measurements for hub [%s]", hub.toString());
 
@@ -123,7 +126,7 @@ public class HistoricalWeatherDataImporter {
     }
 
     public void importMinTemperatures(Coordinates hub) {
-        Map<Year, Double> dataset = weatherFacade.getAnnualAverageMinDailyTemperatureForRangeOfYears(LOWER_YEAR_LIMIT, UPPER_YEAR_LIMIT, hub);
+        Map<Year, Double> dataset = weatherFacade.getAnnualAverageMinDailyTemperatureForRangeOfYears(RANGE, hub);
         persistMinTemperatures(hub, dataset);
         Log.infof("<IMPORT BATCH JOB> Imported measurements for hub [%s]", hub.toString());
     }

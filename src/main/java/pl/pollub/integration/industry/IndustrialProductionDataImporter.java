@@ -6,7 +6,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.quarkus.logging.Log;
 import io.quarkus.runtime.StartupEvent;
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.enterprise.event.Event;
 import jakarta.enterprise.event.Observes;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;
@@ -45,7 +44,8 @@ public class IndustrialProductionDataImporter {
             Log.errorf("Cannot import industrial production data, provided import file [%s] does not exist in resources dir", importFilename);
             return;
         }
-        List<IndustryProductionIndexRecord> records = objectMapper.readValue(input, new TypeReference<>() {});
+        List<IndustryProductionIndexRecord> records = objectMapper.readValue(input, new TypeReference<>() {
+        });
 
         Log.debugf("Fetched [%d] records from imported json", records.size());
 
